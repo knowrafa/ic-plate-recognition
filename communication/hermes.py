@@ -29,7 +29,8 @@ class Hermes:
     def fly(self, velocities):
         """Main class method
             
-            Receive velocities and manipulate, invoking send method
+            Receive velocities and manipulate, invoking create,
+            send and clear methods.
 
             #velocities should be received like:
             [
@@ -50,7 +51,7 @@ class Hermes:
                     robot_id
                     left_wheel_velocity
                     right_wheel_velocity
-                ]
+                ],
             ]
 
             Args:
@@ -63,9 +64,19 @@ class Hermes:
         messages = []
         for i in range(len(velocities)):
             message = "{:.2f}".format(velocities[i]["vRight"]) + ";" + "{:.2f}".format(velocities[i]["vLeft"])
-            self.sendMessage(i, message)
-            messages.append((i, message))
-            
+
+            if self.xbee is not None:
+                try:
+                    self.xbee.send("tx", frame='A', command='MY', dest_addr=self.robots[velocities[i]["robotLetter"]], data=message)
+                    messages.append((i, message))
+                    # print(velocities[i]["robotLetter"] + ": " + message)
+                except SerialTimeoutException:
+                    print("[Hermes]: Message sending timed out")
+                except KeyError:
+                    print("[Hermes]: We don't know the address for robot '" + velocities[i]["robotLetter"] + "'")
+                except SerialException:
+                    print("[Hermes]: Access to xBee denied")
+
         return messages
 
     def killBee(self):
@@ -82,28 +93,21 @@ class Hermes:
         self.serial.close()
 
     def sendMessage(self, robotId, message):
-        """
-        Send a message
-        
-            Args:
-                robotId: Robot id
-                message: Message to be sent
-            Returns:
-                String containing message sent
-
-        """
         if self.xbee is not None:
+            messageInfo = []
             try:
-                self.xbee.send("tx", frame='A', command='MY', dest_addr=self.robots[velocities[i]["robotLetter"]], data=message)
-                return message
+                # print(robotId)
+                self.xbee.send("tx", frame='A', command='MY', dest_addr=self.robots[robotId], data=message)
             except SerialTimeoutException:
-                print("[Hermes]: Message sending timed out")
-            except KeyError:
-                print("[Hermes]: We don't know the address for robot '" + velocities[i]["robotLetter"] + "'")
+                print("Message sending timed out")
             except SerialException:
-                print("[Hermes]: Access to xBee denied")
+                print("Could not send message")
 
-        return None
+            if robotId in self.robots:
+                messageInfo.append((robotId, message))
+            else:
+                print("We don't have this robot configured")
+            return messageInfo
 
     @staticmethod
     def isSerial(port):
