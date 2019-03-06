@@ -6,7 +6,6 @@ from helpers.endless import Endless
 from helpers.plutus import Plutus
 
 from vision import Apolo
-from control import Zeus
 
 
 class Hades(QThread):
@@ -21,7 +20,7 @@ class Hades(QThread):
         QThread.__init__(self)
         # gods
         self.apolo = None
-        self.zeus = Zeus()
+        #self.zeus = Zeus()
 
         self.plutus = Plutus()
 
@@ -46,6 +45,7 @@ class Hades(QThread):
         self.wait()
 
     def setup(self):
+        return
         # set up apolo
 
         # set up athena
@@ -54,7 +54,7 @@ class Hades(QThread):
 
         # set up zeus
         # TODO passar as dimensões corretamente
-        self.zeus.setup(3)
+        #self.zeus.setup(3)
 
         # setting up hermes
         # self.hermes = Hermes(self.srcXbee)
@@ -120,7 +120,7 @@ class Hades(QThread):
         if commands is None:
             return None
 
-        velocities = self.zeus.getVelocities(commands)
+        velocities = None
         return velocities
 
     def hermesRules(self, velocities):
@@ -327,7 +327,6 @@ class Hades(QThread):
 
         if self.play:
             self.athena.reset()
-            self.zeus.reset()
             print("Hades started")
         else:
             print("Hades stopped")
@@ -467,7 +466,8 @@ class Hades(QThread):
 
     # Control
     def eventUpdateSpeeds(self, speeds):
-        self.zeus.updateSpeeds(speeds)
+        return
+        #self.zeus.updateSpeeds(speeds)
         # self.athena.setVelocities(speeds[0], speeds[1], speeds[2])
 
     # PID TEST
