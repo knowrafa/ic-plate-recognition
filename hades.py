@@ -7,8 +7,6 @@ from helpers.plutus import Plutus
 
 from vision import Apolo
 from control import Zeus
-from strategy import Athena
-from communication import Hermes
 
 
 class Hades(QThread):
@@ -23,9 +21,7 @@ class Hades(QThread):
         QThread.__init__(self)
         # gods
         self.apolo = None
-        self.athena = Athena()
         self.zeus = Zeus()
-        self.hermes = Hermes()
 
         self.plutus = Plutus()
 
@@ -39,18 +35,8 @@ class Hades(QThread):
         self.framesToSkip = 5  # valor padrão
 
         self.cascadeTime = 0
+        self.cascadeLastTime = 0   
         self.cascadeLoops = 0
-        self.cascadeLastTime = 0
-
-        # formations
-        self.formationToExecute = -1
-        self.formations = []
-        self.formating = False
-
-        self.pidTesting = False
-        self.pidRobot = -1
-        self.pidTarget = None
-        self.pidSpeed = 0.4
 
         self.drawStrategyConstants = False
 
@@ -64,7 +50,7 @@ class Hades(QThread):
 
         # set up athena
         # TODO passar as dimensões corretamente
-        self.athena.setup(3, self.width, self.height, 0.6)
+        #self.athena.setup(3, self.width, self.height, 0.6)
 
         # set up zeus
         # TODO passar as dimensões corretamente
@@ -80,22 +66,6 @@ class Hades(QThread):
         while True:
             # visão
             positions = self.apoloRules()
-
-            if self.play:
-                commands = self.athenaRules(positions)
-                velocities = self.zeusRules(commands)
-                self.hermesRules(velocities)
-
-            elif self.pidTesting:
-                commands = self.getPIDTarget(positions)
-                velocities = self.zeusRules(commands)
-                self.hermesRules(velocities)
-
-            elif self.formating:
-                commands = self.executeFormation(positions)
-                velocities = self.zeusRules(commands)
-                self.hermesRules(velocities)
-
             time.sleep(0.0001)
 
     # MAIN METHODS
@@ -179,7 +149,7 @@ class Hades(QThread):
 
     def prepareDraw(self, positions):
         objectsToDraw = {}
-
+        '''
         for i in range(0, len(positions[0])):
             if type(positions[0][i]) is not dict:
                 raise ValueError("Invalid value for our warriors received.")
@@ -261,7 +231,7 @@ class Hades(QThread):
                 "label": "Alvo",
                 "radius": 6
             }
-
+        '''
         self.sigDraw.emit(objectsToDraw)
 
     def getPIDTarget(self, positions):
