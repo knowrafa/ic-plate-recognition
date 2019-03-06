@@ -143,55 +143,6 @@ class Afrodite(QMainWindow):
         self.pushButtonCaptureDeviceInformationRefresh.clicked.connect(self.updateComboBoxCaptureDeviceInformation)
         self.updateComboBoxCaptureDeviceInformation()
 
-        # STRATEGY
-
-        # transitions
-        self.checkBoxStrategyTransitionsEnableTransistions.clicked.connect(self.toggleTransitions)
-
-        # roles
-        self.pushButtonStrategyRobotFunctionsEdit.clicked.connect(self.clickEditRoles)
-        self.pushButtonStrategyRobotFunctionsDone.clicked.connect(self.clickDoneRoles)
-
-        self.checkBoxStrategyTestParametersDrawConstants.clicked.connect(self.toggleDrawConstants)
-        self.horizontalSliderStrategyTestParametersGoalieOffset.valueChanged.connect(self.updateStrategyConstants)
-        self.horizontalSliderStrategyTestParametersGoalieLine.valueChanged.connect(self.updateStrategyConstants)
-        self.horizontalSliderStrategyTestParametersAreaLine.valueChanged.connect(self.updateStrategyConstants)
-
-        '''
-        # formation load
-        self.pushButtonStrategyFormationLoad.clicked.connect(self.getPushButtonStrategyFormation)
-        self.pushButtonStrategyFormationDelete.clicked.connect(self.getPushButtonStrategyFormationDelete)
-        self.pushButtonStrategyFormationCreate.clicked.connect(self.getPushButtonStrategyFormationCreate)
-        self.pushButtonStrategyFormationSave.clicked.connect(self.getPushButtonStrategyFormationSave)
-        '''
-
-        # CONTROL
-
-        # speeds
-        self.pushButtonRobotSpeedEdit.clicked.connect(self.getPushButtonRobotSpeedEdit)
-        self.pushButtonRobotSpeedDone.clicked.connect(self.getPushButtonRobotSpeedDone)
-
-        # PID TEST
-        self.pushButtonComunicationRobotFunctionsPIDTest.clicked.connect(self.getPushButtonControlRobotFunctionsPIDTest)
-        self.pushButtonComunicationRobotFunctionsPIDTest.setStyleSheet('background-color:#efefef')
-        self.lineEditPIDRobotVel.textChanged.connect(self.hades.setPIDSpeed)
-
-        # COMMUNICATION
-
-        self.pushButtonControlSerialDeviceStart.clicked.connect(self.getPushButtonControlSerialDeviceStart)
-        self.pushButtonControlSerialDeviceRefresh.clicked.connect(self.getPushButtonControlSerialDeviceRefresh)
-        self.pushButtonControlSerialSend.clicked.connect(self.getPushButtonControlSerialSend)
-        self.updateComboBoxControlSerialDevice()
-        self.getComboBoxControlSerialDevice()
-        self.pushButtonControlSerialSetSkippedFrames.clicked.connect(self.clickedSetSkippedFrames)
-        '''
-        # RobotStatus
-        self.pushButtonControlRobotStatusRobotUpdate.clicked.connect(self.getPushButtonControlRobotStatusRobotUpdate)
-        '''
-
-        # id
-        self.pushButtonRobotIDEdit.clicked.connect(self.getPushButtonRobotIDEdit)
-        self.pushButtonRobotIDDone.clicked.connect(self.getPushButtonRobotIDDone)
 
         # MENUBAR
 
@@ -289,19 +240,18 @@ class Afrodite(QMainWindow):
         self.labelPlayPositionsRobot3.setText(
             "(" + str(round(positions[2][0][0])) + ", " + str(round(positions[2][0][1])) + ", " +
             str(round(positions[2][1], 2)) + ")")
-        self.labelPlayPositionsBall.setText("(" + str(positions[3][0]) + ", " + str(positions[3][1]) + ")")
 
     # FPS
     def setLabelPlayFPS(self, fps):
-        self.labelPlayFPSValue.setText(str(fps))
+        #self.labelPlayFPSValue.setText(str(fps))
+        return
 
     # LoadImage
     def updateFrameVideoView(self, image):
         self.image = image
 
         # desenhar na tela
-        if not self.checkBoxPlayDisableDrawing.isChecked():
-            self.drawImageVideoView()
+        #self.drawImageVideoView()
 
         self.displayImageVideoView(1)
 
@@ -426,9 +376,6 @@ class Afrodite(QMainWindow):
             self.checkBoxCaptureDevicePropertiesFocusAuto.setChecked(self.hades.eventLoadConfigs("focusauto"))
             '''
 
-            self.comboBoxStrategyRobotFunctionsRobot1.setCurrentText(str(self.hades.eventLoadConfigs("robot1")))
-            self.comboBoxStrategyRobotFunctionsRobot2.setCurrentText(str(self.hades.eventLoadConfigs("robot2")))
-            self.comboBoxStrategyRobotFunctionsRobot3.setCurrentText(str(self.hades.eventLoadConfigs("robot3")))
 
             #LoadHSV
             tempHSVCalib = [(self.hades.eventLoadConfigs("mainHmin"),self.hades.eventLoadConfigs("mainHmax")),
@@ -466,14 +413,6 @@ class Afrodite(QMainWindow):
             self.warpMatriz = self.hades.eventLoadConfigs("warpMatriz")
             self.warpGoalMatrix = self.hades.eventLoadConfigs("warpGoalMatrix")
             self.tempOffset = [(self.hades.eventLoadConfigs("offsetLeft")), (self.hades.eventLoadConfigs("offsetRight"))]
-
-            self.spinBoxRobotRadius.setValue(self.hades.eventLoadConfigs("robotRadius"))
-
-            self.spinBoxRobotSpeedAttack.setValue(self.hades.eventLoadConfigs("attackSpeed"))
-            self.spinBoxRobotSpeedDefense.setValue(self.hades.eventLoadConfigs("midSpeed"))
-            self.spinBoxRobotSpeedGoalkeeper.setValue(self.hades.eventLoadConfigs("goalKeeperSpeed"))
-
-            self.updateRobotSpeeds()
             #eventoUpdate
 
 
@@ -505,9 +444,6 @@ class Afrodite(QMainWindow):
             "focus": self.horizontalSliderCaptureDevicePropertiesFocus.value(),
             "focusauto": self.checkBoxCaptureDevicePropertiesFocusAuto.isChecked(),
             '''
-            "robot1": self.comboBoxStrategyRobotFunctionsRobot1.currentText(),
-            "robot2": self.comboBoxStrategyRobotFunctionsRobot2.currentText(),
-            "robot3": self.comboBoxStrategyRobotFunctionsRobot3.currentText(),
 
             "mainBlur": self.horizontalSliderVisionHSVCalibrationMainBlur.value(),
             "mainErode": self.horizontalSliderVisionHSVCalibrationMainErode.value(),
@@ -559,9 +495,9 @@ class Afrodite(QMainWindow):
             "offsetRight": self.horizontalSliderCaptureWarpOffsetRight.value(),
             "robotRadius": self.spinBoxRobotRadius.value(),
 
-            "attackSpeed": self.spinBoxRobotSpeedAttack.value(),
-            "midSpeed": self.spinBoxRobotSpeedDefense.value(),
-            "goalKeeperSpeed": self.spinBoxRobotSpeedGoalkeeper.value()
+            "attackSpeed": 0,
+            "midSpeed": 0,
+            "goalKeeperSpeed": 0
         }
 
         self.hades.eventSaveConfigs(value)
@@ -596,8 +532,6 @@ class Afrodite(QMainWindow):
         self.horizontalSliderCaptureWarpOffsetRight.setEnabled(enable)
         self.pushButtonCaptureWarpAdjust.setEnabled(enable)
 
-        self.checkBoxPlayDisableDrawing.setEnabled(enable)
-
         if enable:
             if self.loadConfigs(file="quicksave"):
                 self.hades.eventWarp(self.warpMatriz)
@@ -609,10 +543,8 @@ class Afrodite(QMainWindow):
 
                 self.hades.eventCalibration(-1)
 
-            self.labelCameraState.setText("<font color='green'>Online</font>")
-            if "Online" in self.labelCommunicationState.text():
-                self.pushButtonPlayStart.setEnabled(True)
-                self.groupBoxStrategyFormation.setEnabled(True)
+            #self.labelCameraState.setText("<font color='green'>Online</font>")
+
         else:
             self.labelCameraState.setText("Error")
 
@@ -840,23 +772,7 @@ class Afrodite(QMainWindow):
 
     # ROBOT TAB
     # role
-    def clickEditRoles(self):
-        self.pushButtonStrategyRobotFunctionsEdit.setEnabled(False)
-        self.pushButtonStrategyRobotFunctionsDone.setEnabled(True)
-        self.comboBoxStrategyRobotFunctionsRobot1.setEnabled(True)
-        self.comboBoxStrategyRobotFunctionsRobot2.setEnabled(True)
-        self.comboBoxStrategyRobotFunctionsRobot3.setEnabled(True)
 
-    def clickDoneRoles(self):
-        self.pushButtonStrategyRobotFunctionsEdit.setEnabled(True)
-        self.pushButtonStrategyRobotFunctionsDone.setEnabled(False)
-        self.comboBoxStrategyRobotFunctionsRobot1.setEnabled(False)
-        self.comboBoxStrategyRobotFunctionsRobot2.setEnabled(False)
-        self.comboBoxStrategyRobotFunctionsRobot3.setEnabled(False)
-
-        self.hades.eventSelectRoles([self.comboBoxStrategyRobotFunctionsRobot1.currentText(),
-                                     self.comboBoxStrategyRobotFunctionsRobot2.currentText(),
-                                     self.comboBoxStrategyRobotFunctionsRobot3.currentText()])
 
     # speeds
     def getPushButtonRobotSpeedEdit(self):
@@ -895,14 +811,6 @@ class Afrodite(QMainWindow):
         self.setRobotSpeedDefenseCurrent(speedDefense)
         self.setRobotSpeedGoalkeeperCurrent(speedGoalKeeper)
 
-    def updateRobotSpeeds(self):
-        speeds = [
-            self.spinBoxRobotSpeedAttack.value() / 100.0,
-            self.spinBoxRobotSpeedDefense.value() / 100.0,
-            self.spinBoxRobotSpeedGoalkeeper.value() / 100.0
-        ]
-
-        self.hades.eventUpdateSpeeds(speeds)
 
     # ID
     def getPushButtonRobotIDEdit(self):
@@ -1215,7 +1123,6 @@ class Afrodite(QMainWindow):
             self.labelCommunicationState.setText("<font color='green'>Online</font>")
             if "Online" in self.labelCameraState.text():
                 self.pushButtonPlayStart.setEnabled(True)
-                self.groupBoxStrategyFormation.setEnabled(True)
         else:
             self.labelCommunicationState.setText("Error")
 
@@ -1292,47 +1199,6 @@ class Afrodite(QMainWindow):
         self.setControlRobotStatusRobotF(statusF)
         self.setControlRobotStatusRobotG(statusG)
     '''
-
-    # STRATEGY TAB
-
-    # transitions
-    def toggleTransitions(self):
-        self.hades.eventToggleTransitions(self.checkBoxStrategyTransitionsEnableTransistions.isTristate())
-
-    # Formation
-    def updateComboBoxStrategyFormationLoadStrategy(self, strategys):
-        self.comboBoxStrategyFormationLoadStrategy.clear()
-        for strategy in strategys:
-            self.comboBoxStrategyFormationLoadStrategy.addItem(strategy)
-
-    def getStrategyFormationLoadStrategy(self):
-        pass
-
-    def getPushButtonStrategyFormationLoad(self):
-        pass
-
-    def getPushButtonStrategyFormationDelete(self):
-        pass
-
-    def getStrategyFormationNewStrategy(self):
-        pass
-
-    def getPushButtonStrategyFormationCreate(self):
-        pass
-
-    def getPushButtonStrategyFormationSave(self):
-        pass
-
-    # Parameters
-    def updateStrategyConstants(self):
-        hades.Hades.updateStrategyConstants(
-            self.spinBoxStrategyTestParametersGoalieLine.value(),
-            self.spinBoxStrategyTestParametersGoalieOffset.value(),
-            self.spinBoxStrategyTestParametersAreaLine.value()
-        )
-
-    def toggleDrawConstants(self):
-        self.hades.setDrawConstantsState(self.checkBoxStrategyTestParametersDrawConstants.isChecked())
 
 
 def main():
