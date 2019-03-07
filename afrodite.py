@@ -214,7 +214,7 @@ class Afrodite(QMainWindow):
                         "color": (0, 255, 0),
                         "lineThickness": 1,
                     }
-                self.drawImageVideoView()    
+                self.drawImageVideoView()
 
     def clickedConnect(self):
         lastCamera = self.comboBoxCaptureDeviceInformation.itemText(self.comboBoxCaptureDeviceInformation.count() - 1)
@@ -251,7 +251,7 @@ class Afrodite(QMainWindow):
         self.image = image
 
         # desenhar na tela
-        #self.drawImageVideoView()
+        self.drawImageVideoView()
 
         self.displayImageVideoView(1)
 
@@ -697,6 +697,7 @@ class Afrodite(QMainWindow):
     def getPosWarp(self, event):
         px = event.pos().x()
         py = event.pos().y()
+        print("oi " + str(self.warpCount))
         
         if not self.pushButtonCaptureWarpWarp.isEnabled():
             if self.warpCount < 4:
@@ -721,11 +722,6 @@ class Afrodite(QMainWindow):
                     
         elif not self.pushButtonCaptureWarpAdjust.isEnabled():
             self.callHadesAdjustGoalEvent(px, py)
-        elif self.pushButtonComunicationRobotFunctionsPIDTest.palette().button().color().name() == '#ff0000':
-            if event.buttons() == QtCore.Qt.LeftButton:
-                self.selectRobotPID(px, py)
-            elif event.buttons() == QtCore.Qt.RightButton:
-                self.selectPointPID(px, py)
 
     def setOffset(self, Offset):
         self.horizontalSliderCaptureWarpOffsetLeft.setValue(Offset[0])
