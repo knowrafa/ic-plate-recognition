@@ -2,11 +2,19 @@ import cv2
 import numpy as np
 import time
 
-image = cv2.imread("plate3.jpg", 1)
-image2 = image.copy()
+#image = cv2.imread("plate3.jpg", 1)
+#image2 = image.copy()
 refPt = []
 refPt2 = []
 clicks = 0
+camera = cv2.VideoCapture(0)
+def get_frame():
+    if camera.isOpened():
+        _, image = camera.read()
+        image2 = image.copy()
+    else:
+        exit()
+    return image, image2
 
 def click_and_choose_region(event, x, y, flags, param):
     # grab references to the global variables
@@ -31,6 +39,14 @@ cv2.setMouseCallback("Imagem", click_and_choose_region)
 
 while True:
     # Mostra a imagem e aguarda uma tecla ser pressionada
+
+    image, image2 = get_frame()
+
+    if clicks == 4:
+        pts = np.array(refPt, np.int32)
+        pts = pts.reshape((-1,1,2))
+        cv2.polylines(image,[pts],True,(0,255,255))
+
     cv2.imshow("Imagem", image)
     key = cv2.waitKey(1) & 0xFF
     if cv2.getWindowProperty("Imagem",cv2.WND_PROP_VISIBLE) < 1:
@@ -49,6 +65,7 @@ while True:
         clicks = 0
         refPt = []
         image = image2.copy()
+camera.release()
 
 HEIGHT = image.shape[0]
 WIDTH = image.shape[1]
@@ -58,12 +75,24 @@ p1, p2, p3, p4 = refPt
 shape = np.float32([p1, p2, p4, p3])
 plot = np.float32([[0,0],[WIDTH,0],[0,HEIGHT],[WIDTH,HEIGHT]])
 perspective = cv2.getPerspectiveTransform(shape,plot)
-image2 = cv2.warpPerspective(image2, perspective, (WIDTH,HEIGHT))
-cv2.imshow("Imagem", image2)
-while cv2.getWindowProperty("Imagem",cv2.WND_PROP_VISIBLE) > 0:
-    k = cv2.waitKey(1000) # change the value from the original 0 (wait forever) to something appropriate
-    if k == 27:
-        print('ESC')
+
+camera.open(0)
+
+while True:
+    # Mostra a imagem e aguarda uma tecla ser pressionada
+    image, image2 = None, None
+    image, image2 = get_frame()
+
+    image2 = cv2.warpPerspective(image2, perspective, (WIDTH,HEIGHT))
+    cv2.imshow("Imagem", image2)
+    
+    key = cv2.waitKey(1)
+    
+    if key == 27:
         cv2.destroyAllWindows()
-        break
+        exit()
+
+    if cv2.getWindowProperty("Imagem",cv2.WND_PROP_VISIBLE) < 1:
+        exit()
+
 cv2.destroyAllWindows()         
