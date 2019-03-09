@@ -1,1 +1,0 @@
-ic-plate-recognition
