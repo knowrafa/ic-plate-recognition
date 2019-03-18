@@ -16,6 +16,21 @@ def get_frame():
         exit()
     return image, image2
 
+def use_frame():
+	image = cv2.imread("plate.png",cv2.IMREAD_COLOR)
+	h, w, _ = image.shape
+	aspect_ratio = w/h
+
+	if h > 768 and w > 1366:
+		image = cv2.resize(image,(1366,768))
+	elif h > 768:
+		image = cv2.resize(image,(768*aspect_ratio,768))
+	elif w > 1366:
+		image = cv2.resize(image,(1366,1366*aspect_ratio))
+
+	image2 = image.copy()
+	return image, image2
+
 def click_and_choose_region(event, x, y, flags, param):
     # grab references to the global variables
     global refPt, clicks
@@ -40,7 +55,7 @@ cv2.setMouseCallback("Imagem", click_and_choose_region)
 while True:
     # Mostra a imagem e aguarda uma tecla ser pressionada
 
-    image, image2 = get_frame()
+    image, image2 = use_frame()
 
     if clicks == 4:
         pts = np.array(refPt, np.int32)
@@ -81,7 +96,7 @@ camera.open(0)
 while True:
     # Mostra a imagem e aguarda uma tecla ser pressionada
     image, image2 = None, None
-    image, image2 = get_frame()
+    image, image2 = use_frame()
 
     image2 = cv2.warpPerspective(image2, perspective, (WIDTH,HEIGHT))
     cv2.imshow("Imagem", image2)
