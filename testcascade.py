@@ -5,18 +5,20 @@ face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
 
 #this is the cascade we just made. Call what you want
-watch_cascade = cv2.CascadeClassifier('plateTest.xml')
+watch_cascade = cv2.CascadeClassifier('CASCADE-PLATES-20-2.xml')
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture("carro_andando.mp4")
 
 while 1:
     ret, img = cap.read()
+    #img = cv2.imread("plate0.png", cv2.IMREAD_COLOR)
+    img = cv2.resize(img, (640, 480))
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     faces = face_cascade.detectMultiScale(gray, 1.3, 5)
     
     # add this
     # image, reject levels level weights.
-    watches = watch_cascade.detectMultiScale(gray, 50, 50)
+    watches = watch_cascade.detectMultiScale(gray, 15, 15)
     
     # add this
     for (x,y,w,h) in watches:

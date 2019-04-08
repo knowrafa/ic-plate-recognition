@@ -1,0 +1,2 @@
+./positive_images/cracha.jpg
+./positive_images/cracha2.jpg

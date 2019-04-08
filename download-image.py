@@ -44,7 +44,7 @@ def find_uglies():
 
 def resize_image(name):
 	img = cv2.imread(name, cv2.IMREAD_GRAYSCALE)
-	resized_image = cv2.resize(img, (320, 240))
+	resized_image = cv2.resize(img, (400, 320))
 	cv2.imwrite(name, resized_image)
 
 #find_uglies()
@@ -56,7 +56,22 @@ def create_pos_n_neg():
 				with open('bg.txt', 'a') as f:
 					f.write(line)
 
+def resize_all_images():
+	file = open("positives.txt", "r")
+	file_names = file.read()
+
+	for name in file_names.split():
+		print(name)
+		img = cv2.imread(name, cv2.IMREAD_GRAYSCALE)
+		try:
+			resized_image = cv2.resize(img, (300, 120))
+			cv2.imwrite(name, resized_image)
+
+		except Exception as e:
+			print(e)
+
 #store_raw_images()
 #find_uglies()
-#resize_image("plate4.jpg")
-create_pos_n_neg()
+resize_image("monitor.jpg")
+#resize_all_images()
+#create_pos_n_neg()
