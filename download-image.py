@@ -18,7 +18,7 @@ def store_raw_images():
 			urllib.request.urlretrieve(i, "neg/"+str(pic_num) + '.jpg')
 			
 			img = cv2.imread("neg/"+str(pic_num) + '.jpg', cv2.IMREAD_GRAYSCALE)
-			resized_image = cv2.resize(img, (100, 100))
+			resized_image = cv2.resize(img, (640, 480))
 			cv2.imwrite("neg/"+str(pic_num) + '.jpg', resized_image)
 			pic_num += 1
 		except Exception as e:
@@ -44,7 +44,7 @@ def find_uglies():
 
 def resize_image(name):
 	img = cv2.imread(name, cv2.IMREAD_GRAYSCALE)
-	resized_image = cv2.resize(img, (50, 50))
+	resized_image = cv2.resize(img, (320, 240))
 	cv2.imwrite(name, resized_image)
 
 #find_uglies()
@@ -56,6 +56,5 @@ def create_pos_n_neg():
 				with open('bg.txt', 'a') as f:
 					f.write(line)
 
-
+store_raw_images()
 #resize_image("sdcard.jpg")
-create_pos_n_neg()
