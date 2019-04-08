@@ -4,7 +4,7 @@ import numpy as np
 import os
 import time
 def platesTest():
-	file = open("platesinfo.txt", "r")
+	file = open("platesinfo2.txt", "r")
 	file_names = file.read()
 	cont = 1
 	for name in file_names.split('\n'):
@@ -34,8 +34,8 @@ def platesTest():
 					if cont%30 == 0:
 						image = cv2.imread(str(image_name[0]) + ".png", cv2.IMREAD_COLOR)
 						roi = image[int(coordinates[1]):int(coordinates[1])+int(coordinates[3]), int(coordinates[0]):int(coordinates[0])+int(coordinates[2])]
-						cv2.imwrite("npos/"+ str(cont) + ".jpg", roi)
-					
+						cv2.imwrite("npos/"+ str(cont+1) + ".jpg", roi)
+
 					cont = cont + 1
 		except Exception as e:
 			print(e)
