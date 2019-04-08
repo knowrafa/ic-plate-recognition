@@ -1,16 +1,23 @@
 import numpy as np
 import cv2
-
+import time 
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
 
 #this is the cascade we just made. Call what you want
-watch_cascade = cv2.CascadeClassifier('CASCADE-PLATES-20-2.xml')
+#watch_cascade = cv2.CascadeClassifier('data/cascade.xml')
+watch_cascade = cv2.CascadeClassifier("CASCADE-PLATES-20-2.xml")
 
-cap = cv2.VideoCapture("carro_andando.mp4")
-
-while 1:
-    ret, img = cap.read()
+#cap = cv2.VideoCapture("carro_andando.mp4")
+file = open("plates2.txt", "r")
+file_names = file.read()
+#while 1:
+for name in file_names.split("\n"):
+    time.sleep(1/30.0)
+    print(name)
+    img = cv2.imread(name, cv2.IMREAD_COLOR)
+    
+    #ret, img = cap.read()
     #img = cv2.imread("plate0.png", cv2.IMREAD_COLOR)
     img = cv2.resize(img, (640, 480))
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
@@ -18,7 +25,7 @@ while 1:
     
     # add this
     # image, reject levels level weights.
-    watches = watch_cascade.detectMultiScale(gray, 15, 15)
+    watches = watch_cascade.detectMultiScale(gray, 2, 5)
     
     # add this
     for (x,y,w,h) in watches:

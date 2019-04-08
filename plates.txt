@@ -1,0 +1,1128 @@
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LMD-5540.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/AZI-2702.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LCY-2476.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LBQ-350.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OYS-2195.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KIT-6604.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KRF-8133.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQZ-9864.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KZB-2585.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/FAM-4461.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LBD-8558.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KRI-5341.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LNG-6631.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PDZ-0097.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OYS-1645.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LNR-3839.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KZC-2920.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OUK-0118.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KMT-8293.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/AXX-1773 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KWW-2767.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LLA-4612.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/JID-9361.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LSG-7882.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KYX-6917.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KMO-7265.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KVF-3473.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/MGQ-4303.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/ALE-8602.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PXT-2944.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/IAG-7547.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXD-1174.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PXY-0360 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OJB-6914.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KGF-9075.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LLH-3367 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PFU-6000.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/JHU-9456.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KVT-4240.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LVD-1517.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PAH-6064.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KPG-7782.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KLE-8189.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LNF-4876.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LOJ-4414 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LLY-9556.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRG-3329.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LUQ-0828.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LMF-3578.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OWO-7837.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KWX-5236.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQY-9083.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/BAJ-4441 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KNS-6108.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PEP-5623.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PVA-8569 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KWG-1850.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LOH-8516.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/BBW-9500.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KWM-2995.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PUV-5365 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/QIR-3500 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRR-6704.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KWW-1038.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KYL-9174.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRX-5174.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LPL-7565.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OYV-6433.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PDW-3116 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQJ-1909.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KQY-2687 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OZU-7055.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/AQU-6945 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KHU-8544.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KVZ-8975.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KQR-6349.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LNG-1566.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KQO-8505.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LMI-2138 (2).JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LSX-4333.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KPW-2088.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LUD-1362.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/HNI-6952.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/FAL-8265.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KWZ-9336.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/HJB-0822 2.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KVX-3104 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LSA-6273.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OKU-7083.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQQ-8927.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/FRV-0372.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KPH-3808.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KOZ-6106.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LMI-2138.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/NZN-4742.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KHF-5821 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQG-2266.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/EWR-8708.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OWO-7837 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KQR-5958.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KVT-8161.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/APM-7659.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LCF-7320 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KUN-7711 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PXK-0480.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LAH-5159.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PDW-3116.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OYZ-7450.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PGL-7222.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/HHF-6213.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OKZ-0270.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LLG-7858.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KQA-2881.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LUP-2975.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRR-8571.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KRY-2202 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KNZ-8587.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KUD-3778.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQG-3110.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KYB-4463 (2).JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LWA-9193.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LUL-4234.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LLX-5122.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PGC-3135.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/EWQ-5008.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/JRX-8167.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LLH-3367.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/ITZ-1660.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OPG-0009.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KVL-2194.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LKT-5165.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PXY-0360 (4).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PXJ-8256.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KMV-8068.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/FRD-0583.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LNU-2885.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PVK-3268 (6).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KKK-2098.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PUV-5365 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/FRI-7200.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PWH-3242.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KYA-6894.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LCG-3662.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KRM-4795.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LBD-2319.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LMA-7517.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXS-3829.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KUF-2376.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KZB-2585 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LTN-4852 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/ABY-9198.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KVX-4736.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OKK-7516 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LLH-9044.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LCT-7532.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PXJ-8251 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PXK-0480 (6).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KVR-8358.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KVU-6503.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/EAI-6852.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KZV-9198.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OYL-5013.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LLF-6257.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KPQ-4093.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OUV-7350.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/NLY-8350.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KQG-5455.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/HGR-1547.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PWX-5568.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/FQW-3475.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PXK-0480 (5).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KHP-3734.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LLT-8634 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KVX-3104.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LMG-5172.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KMV-8012.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PXY-0360.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LOJ-4414.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/MTT-7690 (2).JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LSX-4812.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KWG-1908.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KHW-3664.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/ALE-4378 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KWQ-5088.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LLU-7243.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KWY-7812 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LCM-6104.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/FGK-2555 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KYD-2504.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KMN-0857.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PGE-4533.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KZF-2386.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LTG-0849.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KUX-5416.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRO-5002.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KYB-4463 (3).JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LLN-1330.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PDK-9448 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LUH-4803.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/HGP-8212.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LKW-1906.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/NKC-6590.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRN-9470.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LOY-9267.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KQY-8697.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LLC-8970.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/HNK-7624.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LSG-2983.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PCG-2470 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXS-5624.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/HKW-8283.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OLW-4577.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KWR-6572.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQC-4608.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LPH-4879.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXF-1868.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PCZ-4081 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/GTI-1014.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PDF-3945 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRK-7301 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KWM-5915.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KPT-8007.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LSA-6402.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRF-0477.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KNW-2916.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PDZ-0097 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PJQ-0308.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LKQ-9361.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LAV-5233.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/GZG-5299.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRQ-2031.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KYN-8078.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OVT-4432.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KYL-9863.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LOA-2563.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OXI-8882 (5).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KOW-8971.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LVD-7668.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXX-8352.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/AYA-8892.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KMG-8901.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/AXN-8888.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/JNQ-1499.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LBL-9709.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OUT-7535.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PGU-2200.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PXK-0480 (7).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/NNS-2051.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KGD-3592.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KWE-5871.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/DSS-5210.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LNP-5569.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PXJ-8271 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LSH-4423.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRN-4497.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/CYU-8900.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PEU-0991.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KRQ-6965 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXD-7801.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LBS-2737.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LSF-9293.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OYT-2417.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PXJ-8271 (5).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/FGH-2302.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OKK-7516.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRB-9642.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KOD-2880.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/GVM-5691.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KWP-9456.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LLP-7911.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LLP-9520.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LAR-7207.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/JSF-1084.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LUP-3978.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LLU-9766.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KQK-8664.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/DUR-7778.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXC-6224.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KFY-8162 (4).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KKG-4089.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXX-0287.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LMA-7792.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/JEP-1628.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXJ-4446.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQI-4690.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PUP-0325.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KQE-1438.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXZ-7710.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/AQU-6945.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/EWX-9733.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PCP-6336 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KUF-8007.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/NYU-4229.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQA-5250.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KQW-9564.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXX-5642.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PGR-8325.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/HBH-4961.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LPZ-8210.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/HDO-9068.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQG-4815.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PVK-3268 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OWN-2249.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LUY-2849.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KVT-6195.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRE-5870.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OLT-5168.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXJ-5996.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PFU-6000 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KRJ-3113.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/MHM-0058.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LNZ-4292.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PJY-8769.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PFG-7997 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PDN-5443.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PGA-9576 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LSA-4342.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/BAJ-4441.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KHF-5821.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PCZ-4081.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KVT-3969.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/FLX-1988.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KWV-2685.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LOA-7993.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/HSY-3077.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PGB-1322.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KJD-0885.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQR-5125.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PFG-7997.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRN-0207 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KOC-1299.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/FJY-9514.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KQL-9716.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXN-2719.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LUT-3725.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KQF-6400.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXS-5158 (2).JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRT-0193.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/FJY-9514 (5).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OWD-7588.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/EIQ-9496.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KYR-7214.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/FQZ-8438.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KNS-5694.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KWY-7812.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/JRH-6050.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KUN-7711 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LKX-9731 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PDX-7324 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LAU-2234.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KYT-5249.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXW-1734.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PXJ-8526.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KQS-1613.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OHF-5245 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXC-7428.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LNS-8606.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/JID-9361 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/AQW-5505.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXO-7789.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LOL-5386.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KVD-5275.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PXK-0457 (5).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/FLU-1772.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KYR-7214 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PVK-3268 (5).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQN-3894.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXM-0416.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PJZ-0243.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LSM-9443.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LLT-2972.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PWX-5246.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXD-3983.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OXI-8882.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQK-6420.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PCZ-4081 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXD-1174 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LOA-1784.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LNE-5119.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQU-3584.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KWU-6938.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PGR-8325 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KOW-4785.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KOE-5451.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LSZ-5824.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/HOD-6224.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KVJ-4966.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LOU-3279.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/EUL-0433.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KYV-7418.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/NLU-9327.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXW-1734 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRL-9509.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PVZ-5826 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LBO-1230.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXK-5970.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/HOK-6996.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQL-9280.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LUU-3531 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LNZ-2380.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OKB-9125.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KYU-3725.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRK-7301.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KSL-0273.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KRY-2202.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXL-3061.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/AZJ-4246.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/NIL-5737.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PGR-2563 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PXK-0457 (6).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PGW-2155 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KQK-1620.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KPP-3955.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQW-5919.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PFB-4069.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LLU-8502.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LOW-9104.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LOK-1312.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXW-1558.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/JOZ-1008.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PEU-0991 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/GYZ-2633.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KVW-6586.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/HFP-2503.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PVK-3268 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQQ-1171.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/EBX-5983.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OUF-5531.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KVG-6295.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRO-5022.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KWP-8195.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KYA-3347.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/BAG-7751 (4).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/AXX-1773.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KWV-8476.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PUV-5373 (5).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LOF-2025.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PFE-2581.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PGL-5475.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LPB-2686.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LNJ-8753.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXX-2663 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OXI-8882 (8).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LUF-4444.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KYN-6985.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/APT-9616.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PEF-3085.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LCD-7645.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LLD-2137.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PXY-0360 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/HIO-2357.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQY-5719.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LTX-6345.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PCG-2470 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PUV-5373.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQQ-5578.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PWP-9536.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KPJ-8380.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LPU-4384.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQI-8020.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KVG-6389.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/AAY-5127.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LKT-8524.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LTZ-5482.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LPU-7567.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KPX-3349 (2).JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/FMI-1303.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KYH-2881.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KOE-5451 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PDO-5221 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQI-7243.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PET-7005 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LAG-5887.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KGS-3988.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KOB-6760.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/CLJ-7888.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQL-8097.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRN-0207.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OYP-1428.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KPR-8059.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KTS-1316.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KOE-0313.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/FMW-3777.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KUR-9132 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQN-5090.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KRH-8984 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LSH-2477.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LPL-0300.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KRN-9100.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PUV-5373 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRA-8392.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PDF-3945 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRM-6867 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/FXU-2723.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/EBV-6248.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KQR-7056.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PGB-1924 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LUU-5715.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PJW-1920.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LCQ-8763 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/MSN-6626.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LLT-6177 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PDK-9448 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRS-5329.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KUN-7711.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KPX-2327.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KRU-1800.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/JLW-9464.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PXJ-8264 (4).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KWN-7486.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KVY-8601.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LSI-3196.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/DSQ-6618.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KZD-2666.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LUX-2004.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KMT-7578.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KZL-3902.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KVA-1954.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KPH-2487.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LLW-1768.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LOE-5929.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PXK-0457.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PCX-4797.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KND-8865.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LLD-4311.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/QIR-3500.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LOJ-3466 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRI-3927.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KWG-1850 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KRD-5833.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KON-1811.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PFE-2851.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/FMT-6358.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LBL-9606.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KZD-5187.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PXJ-8271.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/FJY-9514 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXT-7983.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LSN-2916.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRK-5861.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LKX-9731.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/GOW-9124.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OKU-7083 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LPO-1876.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OUX-4256.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRM-6867.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LLA-4612 (2).JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KPJ-8380 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQC-4608 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LLX-5122 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KWM-5980.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OKU-7083 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PGE-4533 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LVD-4828.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KYQ-2563.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KOB-7974.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PDR-5612.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KOP-4509.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KRW-2456.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KPN-8330.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KYI-2677.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LLK-5758.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KYS-6374.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LKE-2994.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/FND-4580.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KYN-8190.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LKE-9305.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PGU-3896.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LPL-7589.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KYM-2087.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KOC-2945.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KYA-3347 (2).JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRV-5488.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KNY-8641.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PGH-6287.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LVC-6251.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LLX-5122 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LJA-1093.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQY-3816.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/AHH-0999.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQO-8178.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PFU-6000 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KWS-8836.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KPC-7603.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KWK-6963.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LSI-1550.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KOH-7731.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXD-1174 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/EZG-3164.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KWT-7517.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OWO-7837 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LIK-3988.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PXK-0457 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRU-6565.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KQJ-9765.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KNG-9141.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/HEB-2036.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KFW-2444 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/DSQ-6618 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PGB-6847.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/HEW-5283.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LDL-5386.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/HGO-5284.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LNJ-3013.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PXJ-8251.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LSD-6879.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PES-1953.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/HNB-9657.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PEU-0991 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRK-7301 (4).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/MOK-7045.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KYY-4643 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KPB-4806.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OWN-2249 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OUY-9379.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OIP-4357 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KWP-8505.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LCS-8217.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LOJ-3466 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KPH-6685.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/NJB-1732.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/CTB-1569.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KOO-0310.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRY-9944.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRR-8662.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KZK-5017.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LOJ-3466.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/ETO-4759.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KQV-4024.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LSJ-7104.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PXJ-8264 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PCW-0712.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LBB-9748 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQO-9222.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/NTK-7148.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KVY-2287.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LPA-1686.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PDO-5221.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PFF-7622.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KNI-0508.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LSE-4008.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LCA-7450.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PFF-7622 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KJT-2231 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KGJ-9765.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LKI-7591.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OKB-9125 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KPQ-4707.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LOY-9267 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PGB-1322 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KVT-4097.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OBH-6391.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PCG-2470.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LUX-0976.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KRD-7366.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LCQ-8763.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PXK-0480 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/JNX-5788.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/EUC-8989.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LSI-7257.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PVA-8569 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQK-9502 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXW-6425.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KRR-6308 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LIW-1849.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OYR-2907.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/HHU-5791.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LAE-1017.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PVK-5726.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PDF-3945.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LOF-3405.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/MTT-4968.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PEF-9126.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KHP-3734 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/HDG-1772.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KMU-0062.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KVT-2863.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LSQ-7619.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KPX-3349.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/HVS-6237.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LNM-0916.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXE-7636.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KVI-4009.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/HLO-8996.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KPU-3951.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KRA-1269.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/GSM-1113.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KRQ-6965.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PGE-0141.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KRF-6757.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/NKT-6325.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LLI-1077.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/ETL-5191.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXW-2351.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRL-9445.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRR-3743.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KPS-4844.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LSP-3422.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/CLJ-7888 (2).JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LOZ-8803.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LBB-9748.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRS-5329 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PGN-3856.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PWP-4476.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LMJ-5341.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OHF-5245 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OYO-1256 (4).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LIN-2148.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/FGK-2555.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OYS-1645 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OQP-3687.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/MUX-8284.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OYO-1256 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQT-2029.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/HJB-0822.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/HFB-3357.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OYN-2928.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KRB-8628.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXA-6414.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/NNY-3327.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KQJ-9769 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/CSE-9780.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KRD-7080.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRV-7627 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KYB-4463.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LKY-8848.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KHI-7177.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KRK-8036.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PVK-3268.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/FJY-9514 (6).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRA-6108.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KOV-8838.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LID-5816.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KQY-8705.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OZV-3696.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQM-5190.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PXK-0480 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LUD-2911.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KRO-5833.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KQJ-9769.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LTB-6302.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXX-5084.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KYY-4643.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PJV-2698.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PFU-9422 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PGB-1322 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PGV-5917.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OHF-5245.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KYC-1916.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KWK-7621.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PFG-7997 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KHU-8544 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OUR-3360.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LOG-6703.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LPU-7567 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LSZ-4542.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LSR-6429.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KNB-3483.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KYL-8851.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQE-9534.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/MSU-1701.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQT-1364.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LKS-6485.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OXI-8882 (7).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KQM-7164.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KWN-3100.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KRE-8652.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PVK-3268 (4).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KQT-3660.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LUD-4429.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PUV-5373 (4).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KRO-6453.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LLW-5445.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KZG-0794.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LMJ-1887.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PGD-3767.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/NOV-7295.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KJT-2231.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KFY-8162 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRP-2869.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KFW-2444 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PXJ-8256 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KQK-3443.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PEY-1867 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LKR-6096.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OHF-5245 (4).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KQK-3070.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OZV-8611.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PXJ-8251 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LUW-1038.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LAI-2749.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OYP-4741.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQG-9117.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PGN-3837.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRL-8931.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LMI-6709.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PEY-1867.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXO-7658.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KRH-8984.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LPM-8355.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PKA-3601.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KMZ-3394.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OXI-8882 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OZH-7886.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KWH-6390.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PFB-4069 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LSN-6884.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LSD-5228.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRE-7752.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LLT-6177.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LUV-4111.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXX-7967.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OYS-1645 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQI-0614.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OZD-7484.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KWQ-5088 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KYG-5317.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LMB-3077.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LOE-2022.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXC-5184.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LMD-7961.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KUR-9132.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PJS-1156.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/AZX-0232.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PXK-0457 (4).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KPW-4317.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/EJD-3779.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KOP-5041.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PFF-7622 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQZ-3090.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PGN-7853.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LLU-5203.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LOD-3128.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LTN-4852.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KNT-6338.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQK-9502.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LUB-5745.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OGQ-5894.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXD-4645.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRK-4448.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LCN-7724.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LPM-5438.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRT-3410.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OMF-5160.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PDK-9448.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/ALE-4378.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRV-9263.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRE-5870 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PUV-5373 (6).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KQO-5483.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PET-7005.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LNP-7221.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRI-3927 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LUU-1310.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXI-4148.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/CHS-9564.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/NLU-9327 (2).JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KYT-1742.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OQK-5526.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PEW-5244.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KWH-9388.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KPT-1907.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LPA-7932.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/FQF-9941.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/DHR-0445.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/EZG-3164 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/ATE-4195.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LLF-5083.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PXJ-8271 (4).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KMG-6611.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LKI-6549.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LPZ-8689.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KYK-8608.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXK-5970 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PGR-2563.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KVI-4412.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KQK-3070 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/JVN-7287.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LLH-5852.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PGU-3896 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LKE-9305 (2).JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQC-2278.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LSV-0458 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KZQ-2553.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KRJ-1821.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KPB-4806 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LSX-7131.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KYR-8747.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PJU-8959 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KWT-4546.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LAK-8614.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KWJ-8884.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KNW-9504.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRH-5360.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PFP-6882.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LUD-4896.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/GOL-0197.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/FAH-3548.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PGQ-3177.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LVP-3112.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/BAG-7751 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KQY-9486.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LNZ-7675.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PGA-9576.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LNZ-8811.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KZH-7609.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KQY-2687.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PGB-1924 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXI-2029.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KUL-5022.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KYA-3347 (3).JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PDX-7324.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KQE-1438 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KOA-7162.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KHU-8544 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OYV-6433 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PFU-9422.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OYO-6894.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXO-6639.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KNP-9837.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KMI-8078.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LLL-7563.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KYW-4090.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LLT-8634.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LLL-2211.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXX-5506.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KPS-5179.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LNZ-1724.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KQF-2768.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LNZ-2380 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXE-9265.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OWO-7837 (4).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KRU-3764.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXN-6658.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LLP-5785.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KGF-9075 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LLN-3695.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OYV-6433 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/FQZ-8438 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KRH-9032.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PEL-0140.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRH-8025.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KQS-3056.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/JGL-4912.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LUW-1028.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OXI-8882 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/MTT 7690.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KOD-7347.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KYG-5048.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KMX-4206.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KUZ-4978.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KMG-6921.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KWL-2879.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQY-5719 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LMB-6506.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KMT-7578 copy.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LND-3416.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KKP-4570 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LCL-7999.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRN-0207 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LNR-0491.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PGB-1924.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRV-7627.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/HSX-7938.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PUJ-8290.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LVD-4828 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/MIP-4408.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRO-5022 (2).JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXQ-4386.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/FJY-9514 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/AZI-2788.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KQR-1870.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LOW-1338.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/AWF-1835.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/FJY-9514 (4).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/BAG-7751 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LKY-7241.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LSK-4417.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KQB-7068.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KPW-5357.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KOW-7001.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PUV-5373 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KKP-4570.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LTT-1513.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LOE-0836.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LKV-6760.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LNO-3968.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LMD-8307.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KRG-3442.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PVA-8569.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LBU-5699.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OWS-8577.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KOO-4184.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OZG-6817.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PCP-6336.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KPH-8999.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PDR-7446.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KRN-3076.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LTP-3486.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRK-7301 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/BAG-7751.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/CYO-5646.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LNZ-2380 (2).JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KYF-5354.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KOR-9948.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LUV-4111 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LPB-7678.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXL-1684.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KYZ-3557.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KYA-0519.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXO-6639 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KFY-8162 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LPW-1917.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LOE-5929 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LAY-2596.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRG-9688.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LNI-2993.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LNP-1417.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PWP-0678.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PET-7005 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/JST-2294.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PUV-5373 (7).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KND-5908.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PVZ-5826.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/EZV-8086.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KZD-8892.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PFJ-4857.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LOU-3279 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LNZ--3777.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LSA-6415.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KPS-7301.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KWQ-6739.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PXJ-8264 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LUU-3531.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OIP-4357.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PXJ-8256 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQG-1985.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LTT-2720.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PXJ-8271 (6).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PJU-8959.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/DET-0157.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PXK-0480 (4).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KPA-3946.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LOO-9273.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/DRF-9665.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/GZA-2477.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LUB-5842.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LCF-7320.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/IUM-8920.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KQY-7131.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXS-5158.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PXJ-8271 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KMG-0982.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OXZ-9360.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KFW-2444.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PDL-7248.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/CVL-4610.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KNO-0505.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OYO-6894 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KYI-3366.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQW-5919 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LBX-2309.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PVZ-5826 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KYD-7935.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KZY-6364.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRE-1862.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LNE-4542.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LPN-6680.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRI-3927 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXN-4504.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LSN-0460.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KPS-9103.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LNF-5873.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KQR-3044.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KVN-3064.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PDZ-0097 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KZD-8892 (2).JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PGD-4203.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PXJ-8264.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KVZ-7821.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KWT-4546 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KRH-1979.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PGX-9828.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LSL-8040.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KWR-2317.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LKX-8631.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQU-8304.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OXI-8882 (4).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRM-6867 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KQQ-7332.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQD-6718.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KFY-8162.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KRR-6308.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQO-9658.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PGW-2155.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KYE-3211.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PDB-9122.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXX-2663.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OXI-8882 (6).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/DSQ-6618 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LVD-6406.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/HGO-8556.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PUV-5365.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LTT-5143.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/EDD-5690.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/ODO-2914.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/EEH-8868.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PXY-9728.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/NZM-3100.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LAA-4120.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LVD-4828 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KQS-9724.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LNA-2793.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PXJ-8251 (4).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/PXK-0457 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OKH-3718.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LLA-3764.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQM-6429.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LQC-6618.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LOE-5929 (3).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LSV-0458.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KOA-5974.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LKM-7019.JPG
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/NZQ-3394.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LRT-3410 (2).jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/LSJ-4965.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/KXA-3787.jpg
+/home/pixellab/Documentos/Arnold/DATABASE/imagesALPR/OUH-3005.jpg
