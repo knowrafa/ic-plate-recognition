@@ -56,5 +56,7 @@ def create_pos_n_neg():
 				with open('bg.txt', 'a') as f:
 					f.write(line)
 
-store_raw_images()
-#resize_image("sdcard.jpg")
+#store_raw_images()
+#find_uglies()
+#resize_image("plate4.jpg")
+create_pos_n_neg()

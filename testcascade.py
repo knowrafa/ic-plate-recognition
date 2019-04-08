@@ -5,13 +5,12 @@ face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
 
 #this is the cascade we just made. Call what you want
-watch_cascade = cv2.CascadeClassifier('sdcard-cascade-12stages.xml')
+watch_cascade = cv2.CascadeClassifier('plateTest.xml')
 
-cap = cv2.VideoCapture('https://192.168.5.142:5037/mjpegfeed')
+cap = cv2.VideoCapture(0)
 
 while 1:
     ret, img = cap.read()
-    print(img)
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     faces = face_cascade.detectMultiScale(gray, 1.3, 5)
     
