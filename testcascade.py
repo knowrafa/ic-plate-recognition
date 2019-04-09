@@ -5,15 +5,16 @@ face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
 
 #this is the cascade we just made. Call what you want
-watch_cascade = cv2.CascadeClassifier('classifier/cascade.xml')
-#watch_cascade = cv2.CascadeClassifier("CASCADE-PLATES-20-2.xml")
+#watch_cascade = cv2.CascadeClassifier('classifier/cascade.xml')
+watch_cascade = cv2.CascadeClassifier("CASCADE-PLATES-20-2.xml")
+#watch_cascade = cv2.CascadeClassifier("br.xml")
 
 #cap = cv2.VideoCapture("carro_andando.mp4")
 file = open("plates.txt", "r")
 file_names = file.read()
 #while 1:
 for name in file_names.split("\n"):
-    time.sleep(1)
+    time.sleep(1/30.0)
     print(name)
     img = cv2.imread(name, cv2.IMREAD_COLOR)
     

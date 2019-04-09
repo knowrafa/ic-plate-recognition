@@ -32,9 +32,9 @@ def platesTest():
 					#cv2.imshow("hey", roi)
 					#time.sleep(10)
 					if cont%30 == 0:
-						image = cv2.imread(str(image_name[0]) + ".png", cv2.IMREAD_COLOR)
+						image = cv2.imread(str(image_name[0]) + ".png", cv2.IMREAD_GRAYSCALE)
 						roi = image[int(coordinates[1])-3:int(coordinates[1])-3+int(coordinates[3])+6, int(coordinates[0])-3:int(coordinates[0])-3+int(coordinates[2])+6]
-						cv2.imwrite("npos/"+ str(cont+1) + ".jpg", roi)
+						cv2.imwrite("positive_images/"+ str(cont) + ".jpg", roi)
 
 					cont = cont + 1
 		except Exception as e:
@@ -48,4 +48,5 @@ def platesTest():
 		except Exception as e:
 			print(e)
 		'''
+
 platesTest()
