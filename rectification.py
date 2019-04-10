@@ -1,6 +1,8 @@
 import cv2
 import numpy as np
 import time
+import sys
+
 # RETIFICAÇÃO DE IMAGEM
 #image = cv2.imread("plate3.jpg", 1)
 #image2 = image.copy()
@@ -17,7 +19,8 @@ def get_frame():
     return image, image2
 
 def use_frame():
-	image = cv2.imread("plate3.jpg",cv2.IMREAD_COLOR)
+	#image = cv2.imread("plate3.jpg",cv2.IMREAD_COLOR)
+	image = cv2.imread(sys.argv[1], cv2.IMREAD_COLOR)
 	h, w, _ = image.shape
 	aspect_ratio = w/h
 
