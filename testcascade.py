@@ -13,7 +13,7 @@ watch_cascade = cv2.CascadeClassifier("classifier/cascade.xml")
 #watch_cascade = cv2.CascadeClassifier("br.xml")
 
 #cap = cv2.VideoCapture("carro_andando.mp4")
-file = open("plates2.txt", "r")
+file = open("plates.txt", "r")
 file_names = file.read()
 #while 1:
 cont = 1
@@ -28,7 +28,7 @@ for name in file_names.split("\n"):
     
     try:
         img = img
-        #img = cv2.resize(img, (640, 480))
+        img = cv2.resize(img, (640, 480))
     except Exception as e:
         continue
     try:
