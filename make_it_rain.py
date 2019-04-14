@@ -14,7 +14,7 @@ def platesTest():
 			file2_names = file2.read()
 			for name2 in file2_names.split('\n'):
 				#print(name2.find("position_plate:"))
-				if name2.find("position_vehicle:") is not -1:
+				if name2.find("position_plate:") is not -1:
 					positions = name2.split(": ")
 					print(positions[1])
 					coordinates = []
@@ -35,7 +35,7 @@ def platesTest():
 						image = cv2.imread(str(image_name[0]) + ".png", cv2.IMREAD_GRAYSCALE)
 						roi = image[int(coordinates[1])-3:int(coordinates[1])-3+int(coordinates[3])+6, int(coordinates[0])-3:int(coordinates[0])-3+int(coordinates[2])+6]
 						if roi is not None:
-							cv2.imwrite("car_regions/"+ str(cont) + ".jpg", roi)
+							cv2.imwrite("plates_extracted/"+ str(cont) + ".jpg", roi)
 
 					cont = cont + 1
 		except Exception as e:
