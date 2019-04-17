@@ -9,7 +9,8 @@ import sys
 refPt = []
 refPt2 = []
 clicks = 0
-camera = cv2.VideoCapture(0)
+#camera = cv2.VideoCapture(0)
+camera = cv2.VideoCapture("http://192.168.5.8:5036/mjpegfeed")
 def get_frame():
     if camera.isOpened():
         _, image = camera.read()
@@ -60,7 +61,7 @@ cv2.setMouseCallback("Imagem", click_and_choose_region)
 while True:
     # Mostra a imagem e aguarda uma tecla ser pressionada
 
-    image, image2 = use_frame()
+    image, image2 = get_frame()
 
     if clicks == 4:
         pts = np.array(refPt, np.int32)
@@ -85,7 +86,7 @@ while True:
         clicks = 0
         refPt = []
         image = image2.copy()
-camera.release()
+#camera.release()
 
 #Obtendo dimensões da imagem
 HEIGHT = image.shape[0]
@@ -99,12 +100,12 @@ shape = np.float32([p1, p2, p4, p3])
 plot = np.float32([[0,0],[WIDTH,0],[0,HEIGHT],[WIDTH,HEIGHT]])
 perspective = cv2.getPerspectiveTransform(shape,plot)
 
-camera.open(0)
+#camera.open("http://192.168.5.8:5036/mjpegfeed")
 
 while True:
     # Mostra a imagem e aguarda uma tecla ser pressionada
     image, image2 = None, None
-    image, image2 = use_frame()
+    image, image2 = get_frame()
 
     #Warp é feito
     image2 = cv2.warpPerspective(image2, perspective, (WIDTH,HEIGHT))
