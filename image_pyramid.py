@@ -6,24 +6,24 @@ img = cv2.resize(img, (640,480)) #redimensionar imagem
 
 
 # Gaussian Pyramid
-layer = img.copy() #copia a camada
-gaussian_pyramid = [layer] #guarda a primeira layer
+layer = img.copy() #copia a imagem
+gaussian_pyramid = [layer] #guarda a a imagem original na lista
 for i in range(6):
-    layer = cv2.pyrDown(layer) #diminui a imagem pela metade e guarda
-    gaussian_pyramid.append(layer) # 
+    layer = cv2.pyrDown(layer) #diminui a imagem pela metade
+    gaussian_pyramid.append(layer) # guarda na lista de imagens
 
 # Laplacian Pyramid
-layer = gaussian_pyramid[5]
-laplacian_pyramid = [layer]
+layer = gaussian_pyramid[5] #pega o topo da pirâmide
+laplacian_pyramid = [layer] #guarda o topo na lista da pirâmida laplaciana
 
 for i in range(5, 0, -1):
 
     size = (gaussian_pyramid[i - 1].shape[1], gaussian_pyramid[i - 1].shape[0])
-    gaussian_expanded = cv2.pyrUp(gaussian_pyramid[i], dstsize=size)
-    laplacian = cv2.subtract(gaussian_pyramid[i - 1], gaussian_expanded)
-    laplacian_pyramid.append(laplacian)
+    gaussian_expanded = cv2.pyrUp(gaussian_pyramid[i], dstsize=size) #aumenta a dimensão da imagem
+    laplacian = cv2.subtract(gaussian_pyramid[i - 1], gaussian_expanded) #obtêm a imagem residual
+    laplacian_pyramid.append(laplacian) #guarda na lista d eimagens
 
-reconstructed_image = laplacian_pyramid[0]
+reconstructed_image = laplacian_pyramid[0] #recebe o topo da pirâmide laplaciana
 
 for i in range(1, 6):
     size = (laplacian_pyramid[i].shape[1], laplacian_pyramid[i].shape[0])

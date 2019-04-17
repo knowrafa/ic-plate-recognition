@@ -6,9 +6,9 @@ eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
 
 #this is the cascade we just made. Call what you want
 #watch_cascade = cv2.CascadeClassifier('classifier12HORAS-20-STAGES/cascade.xml')
-watch_cascade = cv2.CascadeClassifier('classifier-silver-plates-60x20-11h/cascade.xml')
+#watch_cascade = cv2.CascadeClassifier('classifier-silver-plates-60x20-11h/cascade.xml')
 #watch_cascade = cv2.CascadeClassifier('classifier-red-plates-60x20-11h/cascade.xml')
-#watch_cascade = cv2.CascadeClassifier('classifier-silver-plates-randomsize-12h/cascade.xml')
+watch_cascade = cv2.CascadeClassifier('classifier-silver-plates-randomsize-12h/cascade.xml')
 #watch_cascade = cv2.CascadeClassifier("classifier/cascade.xml")
 #watch_cascade = cv2.CascadeClassifier("CASCADE-PLATES-20-2.xml")
 #watch_cascade = cv2.CascadeClassifier('CASCADE-PLATES-20-1.xml')
