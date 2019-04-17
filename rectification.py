@@ -61,7 +61,7 @@ cv2.setMouseCallback("Imagem", click_and_choose_region)
 while True:
     # Mostra a imagem e aguarda uma tecla ser pressionada
 
-    image, image2 = get_frame()
+    image, image2 = use_frame()
 
     if clicks == 4:
         pts = np.array(refPt, np.int32)
@@ -105,7 +105,7 @@ perspective = cv2.getPerspectiveTransform(shape,plot)
 while True:
     # Mostra a imagem e aguarda uma tecla ser pressionada
     image, image2 = None, None
-    image, image2 = get_frame()
+    image, image2 = use_frame()
 
     #Warp é feito
     image2 = cv2.warpPerspective(image2, perspective, (WIDTH,HEIGHT))
