@@ -57,15 +57,29 @@ def create_pos_n_neg():
 					f.write(line)
 
 def resize_all_images():
-	file = open("positive10.txt", "r")
+	file = open("negatives.txt", "r")
 	file_names = file.read()
 
 	for name in file_names.split():
 		print(name)
 		img = cv2.imread(name, cv2.IMREAD_GRAYSCALE)
 		try:
-			resized_image = cv2.resize(img, (60, 20))
+			resized_image = cv2.resize(img, (320, 240))
 			cv2.imwrite(name, resized_image)
+
+		except Exception as e:
+			print(e)
+
+def equalize_all_images():
+	file = open("negatives.txt", "r")
+	file_names = file.read()
+
+	for name in file_names.split():
+		print(name)
+		img = cv2.imread(name, cv2.IMREAD_GRAYSCALE)
+		try:
+			equalized_image = cv2.equalizeHist(img)
+			cv2.imwrite(name, equalized_image)
 
 		except Exception as e:
 			print(e)
@@ -73,5 +87,6 @@ def resize_all_images():
 #store_raw_images()
 #find_uglies()
 #resize_image("monitor.jpg")
-resize_all_images()
+#resize_all_images()
+equalize_all_images()
 #create_pos_n_neg()

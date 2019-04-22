@@ -8,16 +8,16 @@ eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
 #watch_cascade = cv2.CascadeClassifier('classifier12HORAS-20-STAGES/cascade.xml')
 #watch_cascade = cv2.CascadeClassifier('classifier-silver-plates-60x20-11h/cascade.xml')
 #watch_cascade = cv2.CascadeClassifier('classifier-red-plates-60x20-11h/cascade.xml')
-#watch_cascade = cv2.CascadeClassifier('classifier-silver-plates-randomsize-12h/cascade.xml')
+watch_cascade = cv2.CascadeClassifier('classifier-silver-plates-randomsize-12h/cascade.xml')
 #watch_cascade = cv2.CascadeClassifier("classifier/cascade.xml")
-watch_cascade = cv2.CascadeClassifier("CASCADE-PLATES-20-2.xml") #Melhor resultado na ALPR
+#watch_cascade = cv2.CascadeClassifier("CASCADE-PLATES-20-2.xml") #Melhor resultado na ALPR
 
 #watch_cascade = cv2.CascadeClassifier('CASCADE-PLATES-20-1.xml')
 
 #watch_cascade = cv2.CascadeClassifier("br.xml")
 
 #cap = cv2.VideoCapture("carro_andando.mp4")
-file = open("plates.txt", "r")
+file = open("car_info.txt", "r")
 file_names = file.read()
 #while 1:
 cont = 1
