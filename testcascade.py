@@ -1,6 +1,7 @@
 import numpy as np
 import cv2
-import time 
+import time
+import sys 
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
 
@@ -10,6 +11,7 @@ eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
 #watch_cascade = cv2.CascadeClassifier('classifier-red-plates-60x20-11h/cascade.xml')
 #watch_cascade = cv2.CascadeClassifier('classifier-silver-plates-randomsize-12h/cascade.xml')
 watch_cascade = cv2.CascadeClassifier("classifier/cascade.xml")
+#watch_cascade = cv2.CascadeClassifier("classifier_120x40/cascade.xml")
 #watch_cascade = cv2.CascadeClassifier("CASCADE-PLATES-20-2.xml") #Melhor resultado na ALPR
 
 #watch_cascade = cv2.CascadeClassifier('CASCADE-PLATES-20-1.xml')
@@ -17,10 +19,12 @@ watch_cascade = cv2.CascadeClassifier("classifier/cascade.xml")
 #watch_cascade = cv2.CascadeClassifier("br.xml")
 
 #cap = cv2.VideoCapture("carro_andando.mp4")
-file = open("caminhoes.txt", "r")
+file = open(sys.argv[1], "r")
+#file = open("car_info.txt", "r")
 file_names = file.read()
 #while 1:
 cont = 1
+cont2 = 0
 for name in file_names.split("\n"):
     
     time.sleep(1/30.0)
@@ -32,12 +36,15 @@ for name in file_names.split("\n"):
     
     try:
         img = img
+        #img = cv2.resize(img, (1280,720))
         img = cv2.resize(img, (640, 480))
     except Exception as e:
+        cont2 = cont2 + 1
         continue
     try:
         gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     except Exception as e:
+        #cont2 = cont2 + 1
         continue
 
     gray = cv2.equalizeHist(gray)
@@ -105,6 +112,6 @@ for name in file_names.split("\n"):
     k = cv2.waitKey(30) & 0xff
     if k == 27:
         break
-
+print(cont2)
 cap.release()
 cv2.destroyAllWindows()
