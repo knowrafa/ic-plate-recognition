@@ -106,12 +106,19 @@ for name in file_names.split("\n"):
 
     cv2.imwrite("found_by_cascade3/plate-" + str(cont) + ".jpg", img)
     print(name + " " + str(cont))
+    
     cv2.imshow('img',img)
+    
     cont = cont + 1
 
     k = cv2.waitKey(30) & 0xff
     if k == 27:
         break
 print(cont2)
+
+def evaluate_classifier():
+	
+
+
 cap.release()
 cv2.destroyAllWindows()
