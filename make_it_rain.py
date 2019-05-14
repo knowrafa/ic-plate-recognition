@@ -3,6 +3,7 @@ import cv2
 import numpy as np
 import os
 import time
+
 def find_car_region():
 	file = open("platesinfo.txt", "r")
 	file_names = file.read()
@@ -62,7 +63,7 @@ def find_car_region_and_create_info_file():
 			coordinates = []
 			for name2 in file2_names.split('\n'):
 				#print(name2.find("position_plate:"))
-				if name2.find("position_car:") is not -1:
+				if name2.find("position_vehicle:") is not -1:
 					positions = name2.split(": ")
 					
 					print(positions[1])
@@ -73,10 +74,14 @@ def find_car_region_and_create_info_file():
 					image_name = name.split(".")
 					
 					image = cv2.imread(str(image_name[0]) + ".png", cv2.IMREAD_GRAYSCALE)
-					roi = image[int(coordinates[1])-3:int(coordinates[1])-3+int(coordinates[3])+6, int(coordinates[0])-3:int(coordinates[0])-3+int(coordinates[2])+6]
+					roi = image[int(coordinates[1]):int(coordinates[1])+int(coordinates[3]), int(coordinates[0]):int(coordinates[0])+int(coordinates[2])]
 					if roi is not None:
 						cv2.imwrite("car_regions/"+ str(cont) + ".jpg", roi)
-						
+				
+				if name2.find ("type: motorcycle") is not -1:
+					os.remove("car_regions/"+ str(cont) + ".jpg")
+					break
+
 				if name2.find("position_plate:") is not -1:
 					positions = name2.split(": ")
 					coordinates2 = []
@@ -84,8 +89,8 @@ def find_car_region_and_create_info_file():
 					
 					
 					for pos in positions[1].split(" "):
-						
 						coordinates2.append(pos)
+					
 					#Atualizando a nova posição da placa na imagem
 					coordinates2[0] = int(coordinates2[0]) - int(coordinates[0])
 					coordinates2[1] = int(coordinates2[1]) - int(coordinates[1])
@@ -113,4 +118,5 @@ def find_car_region_and_create_info_file():
 	
 		
 
-find_car_region()
+#find_car_region()
+find_car_region_and_create_info_file()

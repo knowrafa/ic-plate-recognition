@@ -6,17 +6,17 @@ face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
 
 #CASCATAS FEITAS
-#watch_cascade = cv2.CascadeClassifier('classifier12HORAS-20-STAGES/cascade.xml')
-#watch_cascade = cv2.CascadeClassifier('classifier-silver-plates-60x20-11h/cascade.xml')
-#watch_cascade = cv2.CascadeClassifier('classifier-red-plates-60x20-11h/cascade.xml')
-#watch_cascade = cv2.CascadeClassifier('classifier-silver-plates-randomsize-12h/cascade.xml')
-watch_cascade = cv2.CascadeClassifier("classifier/cascade.xml")
-#watch_cascade = cv2.CascadeClassifier("classifier_120x40/cascade.xml")
-#watch_cascade = cv2.CascadeClassifier("CASCADE-PLATES-20-2.xml") #Melhor resultado na ALPR
+#my_cascade = cv2.CascadeClassifier('classifier12HORAS-20-STAGES/cascade.xml')
+#my_cascade = cv2.CascadeClassifier('classifier-silver-plates-60x20-11h/cascade.xml')
+#my_cascade = cv2.CascadeClassifier('classifier-red-plates-60x20-11h/cascade.xml')
+#my_cascade = cv2.CascadeClassifier('classifier-silver-plates-randomsize-12h/cascade.xml')
+my_cascade = cv2.CascadeClassifier("classifier/cascade.xml")
+#my_cascade = cv2.CascadeClassifier("classifier_120x40/cascade.xml")
+#my_cascade = cv2.CascadeClassifier("CASCADE-PLATES-20-2.xml") #Melhor resultado na ALPR
 
-#watch_cascade = cv2.CascadeClassifier('CASCADE-PLATES-20-1.xml')
+#my_cascade = cv2.CascadeClassifier('CASCADE-PLATES-20-1.xml')
 
-#watch_cascade = cv2.CascadeClassifier("br.xml")
+#my_cascade = cv2.CascadeClassifier("br.xml")
 
 #cap = cv2.VideoCapture("carro_andando.mp4")
 file = open(sys.argv[1], "r")
@@ -25,6 +25,7 @@ file_names = file.read()
 #while 1:
 cont = 1
 cont2 = 0
+found_plate_count = 0
 for name in file_names.split("\n"):
     
     time.sleep(1/30.0)
@@ -76,21 +77,38 @@ for name in file_names.split("\n"):
         #cv2.imshow(str(i), reconstructed_image)
         cv2.imshow(str(i), laplacian_pyramid[i])
     '''
-    faces = face_cascade.detectMultiScale(gray, 1.3, 5)
+    #faces = face_cascade.detectMultiScale(gray, 1.3, 5)
     new_image = img.copy()
     # add this
     # image, reject levels level weights.
-    watches = watch_cascade.detectMultiScale(gray, 1.3, 5)
+    plates = my_cascade.detectMultiScale(gray, 1.3, 5)
     nx, ny, nw, nh = 0,0,0,0
+    
+    new_name = name.split(".")
+
+    info_file = open(new_name[0] + ".txt", 'r')
+    plate_position = info_file.read()
+    coordinates = []
+    if plate_position.find("position_plate:") is not -1:
+        positions = name2.split(": ")
+        print(positions[1])
+        coordinates = []
+        for pos in positions[1].split(" "):
+            coordinates.append(int(pos))
+
+    info_file.close()
+
+
     # add this
-    for (x,y,w,h) in watches:
+    for (x,y,w,h) in plates:
+        if
         cv2.rectangle(img,(x,y),(x+w,y+h),(255,255,0),2)
         nx, ny, nw, nh = x,y,w,h
 
     for (x,y,w,h) in faces:
         cv2.rectangle(img,(x,y),(x+w,y+h),(255,0,0),2)
 
-    if len(watches)==0:
+    if len(plates)==0:
         continue
 
         
@@ -116,7 +134,7 @@ for name in file_names.split("\n"):
         break
 print(cont2)
 
-def evaluate_classifier():
+#def evaluate_classifier():
 	
 
 

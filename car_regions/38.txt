@@ -1,0 +1,1 @@
+position_plate: 70 100 57 24
