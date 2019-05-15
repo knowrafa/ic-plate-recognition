@@ -25,7 +25,7 @@ file_names = file.read()
 #while 1:
 cont = 1
 cont2 = 0
-found_plate_count = 0
+plate_count = 0
 for name in file_names.split("\n"):
     
     time.sleep(1/30.0)
@@ -38,7 +38,7 @@ for name in file_names.split("\n"):
     try:
         img = img
         #img = cv2.resize(img, (1280,720))
-        img = cv2.resize(img, (640, 480))
+        #img = cv2.resize(img, (640, 480))
     except Exception as e:
         cont2 = cont2 + 1
         continue
@@ -84,29 +84,42 @@ for name in file_names.split("\n"):
     plates = my_cascade.detectMultiScale(gray, 1.3, 5)
     nx, ny, nw, nh = 0,0,0,0
     
-    new_name = name.split(".")
+    if len(plates)==0:
+        continue
 
+    new_name = name.split(".jpg")
+    #print(new_name)
     info_file = open(new_name[0] + ".txt", 'r')
     plate_position = info_file.read()
     coordinates = []
     if plate_position.find("position_plate:") is not -1:
-        positions = name2.split(": ")
-        print(positions[1])
-        coordinates = []
+        positions = plate_position.split(": ")
+        #print(positions[1])
         for pos in positions[1].split(" "):
             coordinates.append(int(pos))
 
     info_file.close()
 
+    plate_positions = []
+    plate_positions.append(coordinates[0])
+    plate_positions.append(coordinates[1])
+    plate_positions.append(coordinates[0] + coordinates[2])
+    plate_positions.append(coordinates[1] + coordinates[3])
 
+    #print(plate_positions)
     # add this
     for (x,y,w,h) in plates:
-        if
+        if plate_positions[0] > x and plate_positions[2] < (x + w) and plate_positions[1] > y and plate_positions[3] < (y + h):
+            plate_count = plate_count + 1
+            break
+
         cv2.rectangle(img,(x,y),(x+w,y+h),(255,255,0),2)
         nx, ny, nw, nh = x,y,w,h
 
-    for (x,y,w,h) in faces:
-        cv2.rectangle(img,(x,y),(x+w,y+h),(255,0,0),2)
+    #for (x,y,w,h) in faces:
+    #    cv2.rectangle(img,(x,y),(x+w,y+h),(255,0,0),2)
+
+    cv2.rectangle(img,(plate_positions[0],plate_positions[1]),(plate_positions[2],plate_positions[3]),(0,255,0),2)
 
     if len(plates)==0:
         continue
@@ -133,6 +146,8 @@ for name in file_names.split("\n"):
     if k == 27:
         break
 print(cont2)
+
+print("Porcentagem de acerto: " + str(plate_count*100.0/cont) + "%")
 
 #def evaluate_classifier():
 	
