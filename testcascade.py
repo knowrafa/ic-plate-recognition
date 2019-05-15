@@ -31,14 +31,17 @@ for name in file_names.split("\n"):
     time.sleep(1/30.0)
     #print(name)
     img = cv2.imread(name, cv2.IMREAD_COLOR)
-    
+
     #ret, img = cap.read()
     #img = cv2.imread("plate0.png", cv2.IMREAD_COLOR)
-    
+    if img is None:
+        continue
+
+    currentHeight,currentWidth = img.shape[:2]
     try:
         img = img
         #img = cv2.resize(img, (1280,720))
-        #img = cv2.resize(img, (640, 480))
+        img = cv2.resize(img, (640, 480))
     except Exception as e:
         cont2 = cont2 + 1
         continue
@@ -85,6 +88,7 @@ for name in file_names.split("\n"):
     nx, ny, nw, nh = 0,0,0,0
     
     if len(plates)==0:
+        cont2 = cont2 + 1
         continue
 
     new_name = name.split(".jpg")
@@ -100,21 +104,29 @@ for name in file_names.split("\n"):
 
     info_file.close()
 
+    newX = (coordinates[0]/currentWidth)*640 + 0.5
+    newY = (coordinates[1]/currentHeight)*480 + 0.5
+
+    newXf = ((coordinates[0] + coordinates[2])/currentWidth)*640 + 0.5
+    newYf = ((coordinates[1]+coordinates[3])/currentHeight)*480 + 0.5
+
     plate_positions = []
-    plate_positions.append(coordinates[0])
-    plate_positions.append(coordinates[1])
-    plate_positions.append(coordinates[0] + coordinates[2])
-    plate_positions.append(coordinates[1] + coordinates[3])
+    plate_positions.append(int(newX))
+    plate_positions.append(int(newY))
+    plate_positions.append(int(newXf))
+    plate_positions.append(int(newYf))
 
     #print(plate_positions)
     # add this
     for (x,y,w,h) in plates:
-        if plate_positions[0] > x and plate_positions[2] < (x + w) and plate_positions[1] > y and plate_positions[3] < (y + h):
-            plate_count = plate_count + 1
-            break
-
         cv2.rectangle(img,(x,y),(x+w,y+h),(255,255,0),2)
         nx, ny, nw, nh = x,y,w,h
+        if plate_positions[0] > x and plate_positions[2] < (x + w) and plate_positions[1] > y and plate_positions[3] < (y + h):
+            print("plate_count: " + str(plate_count))
+            plate_count = plate_count + 1
+            cv2.rectangle(img,(plate_positions[0],plate_positions[1]),(plate_positions[2],plate_positions[3]),(0,255,0),2)
+            cv2.imwrite("plate_count_images/plate-" + str(cont) + ".jpg", img)
+            break
 
     #for (x,y,w,h) in faces:
     #    cv2.rectangle(img,(x,y),(x+w,y+h),(255,0,0),2)
@@ -148,7 +160,7 @@ for name in file_names.split("\n"):
 print(cont2)
 print("cont: " + str(cont))
 print("plate_count: " + str(plate_count))
-print("Porcentagem de acerto: " + str(plate_count*100.0/cont) + "%")
+print("Porcentagem de acerto: " + str(int(plate_count*100.0/cont)) + "%")
 
 #def evaluate_classifier():
 	
