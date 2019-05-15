@@ -119,7 +119,7 @@ for name in file_names.split("\n"):
     #for (x,y,w,h) in faces:
     #    cv2.rectangle(img,(x,y),(x+w,y+h),(255,0,0),2)
 
-    cv2.rectangle(img,(plate_positions[0],plate_positions[1]),(plate_positions[2],plate_positions[3]),(0,255,0),2)
+    #cv2.rectangle(img,(plate_positions[0],plate_positions[1]),(plate_positions[2],plate_positions[3]),(0,255,0),2)
 
     if len(plates)==0:
         continue
@@ -146,7 +146,8 @@ for name in file_names.split("\n"):
     if k == 27:
         break
 print(cont2)
-
+print("cont: " + str(cont))
+print("plate_count: " + str(plate_count))
 print("Porcentagem de acerto: " + str(plate_count*100.0/cont) + "%")
 
 #def evaluate_classifier():
