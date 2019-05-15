@@ -157,9 +157,9 @@ for name in file_names.split("\n"):
     k = cv2.waitKey(30) & 0xff
     if k == 27:
         break
-print(cont2)
-print("cont: " + str(cont))
-print("plate_count: " + str(plate_count))
+print("Placas perdidas: " + str(cont2))
+print("Placas com regiões de interesse: " + str(cont))
+print("Imagens em que a placa foi encontrada: " + str(plate_count))
 print("Porcentagem de acerto: " + str(int(plate_count*100.0/cont)) + "%")
 
 #def evaluate_classifier():

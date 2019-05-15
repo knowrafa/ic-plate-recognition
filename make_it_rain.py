@@ -52,7 +52,7 @@ def find_car_region():
 		'''
 		
 def find_car_region_and_create_info_file():
-	file = open("platesinfo.txt", "r")
+	file = open("platesinfo2.txt", "r")
 	file_names = file.read()
 	cont = 1
 	for name in file_names.split('\n'):
@@ -76,10 +76,10 @@ def find_car_region_and_create_info_file():
 					image = cv2.imread(str(image_name[0]) + ".png", cv2.IMREAD_GRAYSCALE)
 					roi = image[int(coordinates[1]):int(coordinates[1])+int(coordinates[3]), int(coordinates[0]):int(coordinates[0])+int(coordinates[2])]
 					if roi is not None:
-						cv2.imwrite("car_regions/"+ str(cont) + ".jpg", roi)
+						cv2.imwrite("car_regions2/"+ str(cont) + ".jpg", roi)
 				
 				if name2.find ("type: motorcycle") is not -1:
-					os.remove("car_regions/"+ str(cont) + ".jpg")
+					os.remove("car_regions2/"+ str(cont) + ".jpg")
 					break
 
 				if name2.find("position_plate:") is not -1:
@@ -96,7 +96,7 @@ def find_car_region_and_create_info_file():
 					coordinates2[1] = int(coordinates2[1]) - int(coordinates[1])
 					
 					#Abrindo arquivo (e criando) para escrita 
-					info_file = open("car_regions/" + str(cont) + ".txt", 'a')
+					info_file = open("car_regions2/" + str(cont) + ".txt", 'a')
 					info_file.write("position_plate: " + str(coordinates2[0]) + " " + str(coordinates2[1]) + " " + str(coordinates2[2]) + " " + str(coordinates2[3]) + "\n")
 					info_file.close()
 					
