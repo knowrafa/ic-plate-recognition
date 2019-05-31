@@ -1,6 +1,7 @@
 import numpy as np
 import cv2
 import time
+import math
 import sys 
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
@@ -121,11 +122,26 @@ for name in file_names.split("\n"):
     for (x,y,w,h) in plates:
         cv2.rectangle(img,(x,y),(x+w,y+h),(255,255,0),2)
         nx, ny, nw, nh = x,y,w,h
-        if plate_positions[0] > x and plate_positions[2] < (x + w) and plate_positions[1] > y and plate_positions[3] < (y + h):
+
+        g_truth_triangle_center_x = (x+w + x)/2
+        g_truth_triangle_center_y = (y+h + y)/2
+
+        found_triangle_center_x = (plate_positions[2] + plate_positions[0])/2
+        found_triangle_center_y = (plate_positions[3] + plate_positions[1])/2
+
+        euclidean_dist = math.sqrt(math.pow(found_triangle_center_x-g_truth_triangle_center_x, 2) + math.pow(found_triangle_center_y-g_truth_triangle_center_y, 2))
+        print("Euclidean dist: " + str(euclidean_dist))
+
+        #Verifica se o ground truth está inscrito em uma das regiões de interesse
+        #Também verifica se a região de interesse está inscrita no ground truth
+        #Verifica se a distância entre os centros dos retângulos é menor que 10
+        if (plate_positions[0] > x and plate_positions[2] < (x + w) and plate_positions[1] > y and plate_positions[3] < (y + h)) or \
+        (x > plate_positions[0] and (x + w) < plate_positions[2] and y > plate_positions[1] and (y + h) < plate_positions[3]) or \
+        euclidean_dist < 15:
             print("plate_count: " + str(plate_count))
             plate_count = plate_count + 1
             cv2.rectangle(img,(plate_positions[0],plate_positions[1]),(plate_positions[2],plate_positions[3]),(0,255,0),2)
-            cv2.imwrite("plate_count_images/plate-" + str(cont) + ".jpg", img)
+            cv2.imwrite("./plate_count_images/plate-" + str(cont) + ".jpg", img)
             break
 
     #for (x,y,w,h) in faces:
@@ -147,24 +163,24 @@ for name in file_names.split("\n"):
     except Exception as e:
         new_image = new_image[ny:ny+nh,nx:nx+nw]
 
-    cv2.imwrite("found_by_cascade3/plate-" + str(cont) + ".jpg", img)
+    #cv2.imwrite("found_by_cascade3/plate-" + str(cont) + ".jpg", img)
     print(name + " " + str(cont))
     
-    cv2.imshow('img',img)
+    #cv2.imshow('img',img)
     
     cont = cont + 1
 
     k = cv2.waitKey(30) & 0xff
     if k == 27:
         break
-print("Placas perdidas: " + str(cont2))
+print("Placas perdidas (False Negative): " + str(cont2))
 print("Placas com regiões de interesse: " + str(cont))
-print("Imagens em que a placa foi encontrada: " + str(plate_count))
+print("Imagens em que a placa foi encontrada (True Positive): " + str(plate_count))
 print("Porcentagem de acerto: " + str(int(plate_count*100.0/cont)) + "%")
 
 #def evaluate_classifier():
 	
 
 
-cap.release()
+#cap.release()
 cv2.destroyAllWindows()
