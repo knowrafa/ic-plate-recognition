@@ -63,7 +63,7 @@ for name in file_names.split("\n"):
 
     # Laplacian Pyramid
     layer = gaussian_pyramid[5] #pega o topo da pirâmide
-    laplacian_pyramid = [layer] #guarda o topo na lista da pirâmida laplaciana
+    laplacian_pyramid = [layer] #guarda o topo na lista da piramide laplaciana
 
     for i in range(7, 0, -1):
 
@@ -176,10 +176,62 @@ for name in file_names.split("\n"):
 print("Placas perdidas (False Negative): " + str(cont2))
 print("Placas com regiões de interesse: " + str(cont))
 print("Imagens em que a placa foi encontrada (True Positive): " + str(plate_count))
+
 print("Porcentagem de acerto: " + str(int(plate_count*100.0/cont)) + "%")
 
 #def evaluate_classifier():
-	
+
+file = open("negatives.txt", "r")
+#file = open("car_info.txt", "r")
+file_names = file.read()
+
+not_found = 0
+found = 0
+for name in file_names.split("\n"):
+    
+    time.sleep(1/30.0)
+    #print(name)
+    img = cv2.imread(name, cv2.IMREAD_COLOR)
+
+    #ret, img = cap.read()
+    #img = cv2.imread("plate0.png", cv2.IMREAD_COLOR)
+    if img is None:
+        continue
+
+    currentHeight,currentWidth = img.shape[:2]
+    try:
+        img = img
+        #img = cv2.resize(img, (1280,720))
+        img = cv2.resize(img, (640, 480))
+    except Exception as e:
+        cont2 = cont2 + 1
+        continue
+    try:
+        gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    except Exception as e:
+        #cont2 = cont2 + 1
+        continue
+
+    gray = cv2.equalizeHist(gray)
+    new_image = img.copy()
+    # add this
+    # image, reject levels level weights.
+    plates = my_cascade.detectMultiScale(gray, 1.3, 5)
+    nx, ny, nw, nh = 0,0,0,0
+    
+    if len(plates) is not 0:
+        not_found = not_found + 1
+    else:
+        found = found + 1
+
+    print(name + " " + str(cont))
+    
+    k = cv2.waitKey(30) & 0xff
+    if k == 27:
+        break
+print("Imagens sem placa em que placa não foi identificada (True Negative): " + str(not_found))
+print("Imagens sem placa em que alguma placa foi identificada (False Negative): " + str(found))
+
 
 
 #cap.release()
