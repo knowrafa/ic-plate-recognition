@@ -4,6 +4,8 @@ import time
 import math
 import sys 
 from tabulate import tabulate
+import pytesseract
+
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
 
@@ -140,6 +142,8 @@ for name in file_names.split("\n"):
         (x > plate_positions[0] and (x + w) < plate_positions[2] and y > plate_positions[1] and (y + h) < plate_positions[3]) or \
         euclidean_dist < 15:
             print("true_positive: " + str(true_positive))
+            teste = new_image[ny:ny+nh,nx:nx+nw]
+            print(pytesseract.image_to_string(teste))
             true_positive = true_positive + 1
             cv2.rectangle(img,(plate_positions[0],plate_positions[1]),(plate_positions[2],plate_positions[3]),(0,255,0),2)
             cv2.imwrite("./true_positive_images/plate-" + str(cont) + ".jpg", img)
@@ -246,17 +250,13 @@ recall = (true_positive/(true_positive+false_negative))
 precision= (true_positive/(true_positive+false_positive)) #
 f_score = (2*precision*recall)/(precision+recall)
 
-
 metrics = []
 metrics.append(("Accuracy", format(accuracy, '.2f')))
 metrics.append(("Recall", format(recall, '.2f')))
 metrics.append(("Precision", format(precision, '.2f')))
 metrics.append(("f-score", format(f_score, '.2f')))
 
-
 print(tabulate(metrics))
-
-print
 
 #cap.release()
 cv2.destroyAllWindows()
