@@ -1,1 +1,0 @@
-position_plate: 416 537 178 59

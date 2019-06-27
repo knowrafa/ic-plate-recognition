@@ -42,10 +42,11 @@ for name in file_names.split("\n"):
         continue
 
     currentHeight,currentWidth = img.shape[:2]
+    width, height = 640, 480
     try:
         img = img
         #img = cv2.resize(img, (1280,720))
-        img = cv2.resize(img, (640, 480))
+        img = cv2.resize(img, (width, height))
     except Exception as e:
         false_negative = false_negative + 1
         continue
@@ -55,7 +56,7 @@ for name in file_names.split("\n"):
         #false_negative = false_negative + 1
         continue
 
-    gray = cv2.equalizeHist(gray)
+    #gray = cv2.equalizeHist(gray)
     '''
     #pyramid
     layer = img.copy() #copia a imagem
@@ -108,12 +109,17 @@ for name in file_names.split("\n"):
 
     info_file.close()
 
-    newX = (coordinates[0]/currentWidth)*640 + 0.5
-    newY = (coordinates[1]/currentHeight)*480 + 0.5
+    #newX = coordinates[0]
+    #newY = coordinates[1]
+    #newXf = coordinates[2]
+    #newYf = coordinates[3]
+    newX = (coordinates[0]/currentWidth)*width + 0.5
+    newY = (coordinates[1]/currentHeight)*height + 0.5
 
-    newXf = ((coordinates[0] + coordinates[2])/currentWidth)*640 + 0.5
-    newYf = ((coordinates[1]+coordinates[3])/currentHeight)*480 + 0.5
+    newXf = ((coordinates[0] + coordinates[2])/currentWidth)*width + 0.5
+    newYf = ((coordinates[1]+coordinates[3])/currentHeight)*height + 0.5
 
+    #Plate positions é o ground truth da placa
     plate_positions = []
     plate_positions.append(int(newX))
     plate_positions.append(int(newY))
@@ -134,20 +140,31 @@ for name in file_names.split("\n"):
 
         euclidean_dist = math.sqrt(math.pow(false_positive_triangle_center_x-g_truth_triangle_center_x, 2) + math.pow(false_positive_triangle_center_y-g_truth_triangle_center_y, 2))
         print("Euclidean dist: " + str(euclidean_dist))
-
+        tjanela = 20
         #Verifica se o ground truth está inscrito em uma das regiões de interesse
         #Também verifica se a região de interesse está inscrita no ground truth
         #Verifica se a distância entre os centros dos retângulos é menor que 10
         if (plate_positions[0] > x and plate_positions[2] < (x + w) and plate_positions[1] > y and plate_positions[3] < (y + h)) or \
         (x > plate_positions[0] and (x + w) < plate_positions[2] and y > plate_positions[1] and (y + h) < plate_positions[3]) or \
-        euclidean_dist < 15:
+        euclidean_dist < 10:
             print("true_positive: " + str(true_positive))
-            teste = new_image[ny:ny+nh,nx:nx+nw]
-            print(pytesseract.image_to_string(teste))
+            #teste = new_image[ny:ny+nh,nx:nx+nw]
+            #print(pytesseract.image_to_string(testes))
             true_positive = true_positive + 1
             cv2.rectangle(img,(plate_positions[0],plate_positions[1]),(plate_positions[2],plate_positions[3]),(0,255,0),2)
             cv2.imwrite("./true_positive_images/plate-" + str(cont) + ".jpg", img)
             break
+        
+        elif (plate_positions[0] > (x-tjanela if x-tjanela > 0 else 0) and plate_positions[2] < (x+w+tjanela if x+w+tjanela < width else 0) and plate_positions[1] > (y-tjanela if y-tjanela > 0 else 0)\
+        and plate_positions[3] < (y+h+tjanela if y+h+tjanela < height else 0)):
+            true_positive = true_positive + 1
+            cv2.rectangle(img,(plate_positions[0],plate_positions[1]),(plate_positions[2],plate_positions[3]),(0,255,0),2)
+            cv2.imwrite("./true_positive_images/plate-" + str(cont) + ".jpg", img)
+            break
+        
+        print((x-10 if x-10 > 0 else 0))
+        print( (x+w+10 if x+w+10 < width else 0))
+
 
     #for (x,y,w,h) in faces:
     #    cv2.rectangle(img,(x,y),(x+w,y+h),(255,0,0),2)
@@ -190,7 +207,7 @@ print("Porcentagem de acerto: " + str(int(true_positive*100.0/cont)) + "%")
 file = open("negatives.txt", "r")
 #file = open("car_info.txt", "r")
 file_names = file.read()
-
+false_negative = (cont-true_positive) + false_negative
 true_negative = 0
 false_positive = 0
 for name in file_names.split("\n"):
@@ -218,17 +235,29 @@ for name in file_names.split("\n"):
         #false_negative = false_negative + 1
         continue
 
-    gray = cv2.equalizeHist(gray)
+    #gray = cv2.equalizeHist(gray)
     new_image = img.copy()
     # add this
     # image, reject levels level weights.
     plates = my_cascade.detectMultiScale(gray, 1.3, 5)
     nx, ny, nw, nh = 0,0,0,0
-    
-    if len(plates) is not 0:
+    flag = 0
+    if len(plates) is 0:
         true_negative = true_negative + 1
     else:
-        false_positive = false_positive + 1
+        #Verifica se a região está acima da metade da imagem, se todas estiverem, a placa não pode estar e logo é um verdadeiro negativo
+        for (x,y,w,h) in plates:
+            print( str(y + h) + " --- " + str(0.8*height/2))
+            if y+h < (height/2):
+                continue
+            else:
+                flag = 1
+                break
+
+        if flag == 1:
+            false_positive = false_positive + 1
+        else:
+            true_negative = true_negative + 1
 
     print(name + " " + str(false_positive+true_negative))
     
@@ -241,8 +270,8 @@ print("Imagens sem placa em que placa não foi identificada (True Negative): " +
 print("Imagens sem placa em que alguma placa foi identificada (False Positive): " + str(false_positive))
 
 results = []
-results.append(("[Valor Real] Placas", true_positive, false_positive))
-results.append(("[Valor Real] Não Placas",   false_negative, true_negative))
+results.append(("[Valor Real] Placas", true_positive, false_negative))
+results.append(("[Valor Real] Não Placas",   false_positive, true_negative))
 print(tabulate(results, headers=[" ", "[Valor Predito] Placas", "[Valor Predito] Não Placas"]))
 
 accuracy = (true_positive + true_negative)/(true_positive+true_negative+false_negative+false_positive)
