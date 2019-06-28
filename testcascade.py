@@ -140,7 +140,11 @@ for name in file_names.split("\n"):
 
         euclidean_dist = math.sqrt(math.pow(false_positive_triangle_center_x-g_truth_triangle_center_x, 2) + math.pow(false_positive_triangle_center_y-g_truth_triangle_center_y, 2))
         print("Euclidean dist: " + str(euclidean_dist))
-        tjanela = 20
+        tjanela = 10
+        
+        if y+h < (height/2):
+            continue
+            
         #Verifica se o ground truth está inscrito em uma das regiões de interesse
         #Também verifica se a região de interesse está inscrita no ground truth
         #Verifica se a distância entre os centros dos retângulos é menor que 10
