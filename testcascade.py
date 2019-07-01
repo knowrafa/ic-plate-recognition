@@ -14,11 +14,14 @@ eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
 #my_cascade = cv2.CascadeClassifier('classifier-silver-plates-60x20-11h/cascade.xml')
 #my_cascade = cv2.CascadeClassifier('classifier-red-plates-60x20-11h/cascade.xml')
 #my_cascade = cv2.CascadeClassifier('classifier-silver-plates-randomsize-12h/cascade.xml')
+
 my_cascade = cv2.CascadeClassifier("classifier/cascade.xml")
+
 #my_cascade = cv2.CascadeClassifier("classifier_120x40/cascade.xml")
 #my_cascade = cv2.CascadeClassifier("CASCADE-PLATES-20-2.xml") #Melhor resultado na ALPR
 
 #my_cascade = cv2.CascadeClassifier('CASCADE-PLATES-20-1.xml')
+
 
 #my_cascade = cv2.CascadeClassifier("br.xml")
 
@@ -140,7 +143,7 @@ for name in file_names.split("\n"):
 
         euclidean_dist = math.sqrt(math.pow(false_positive_triangle_center_x-g_truth_triangle_center_x, 2) + math.pow(false_positive_triangle_center_y-g_truth_triangle_center_y, 2))
         print("Euclidean dist: " + str(euclidean_dist))
-        tjanela = 10
+        tjanela = 30
         
         if y+h < (height/2):
             continue
@@ -150,7 +153,7 @@ for name in file_names.split("\n"):
         #Verifica se a distância entre os centros dos retângulos é menor que 10
         if (plate_positions[0] > x and plate_positions[2] < (x + w) and plate_positions[1] > y and plate_positions[3] < (y + h)) or \
         (x > plate_positions[0] and (x + w) < plate_positions[2] and y > plate_positions[1] and (y + h) < plate_positions[3]) or \
-        euclidean_dist < 10:
+        euclidean_dist < 1:
             print("true_positive: " + str(true_positive))
             #teste = new_image[ny:ny+nh,nx:nx+nw]
             #print(pytesseract.image_to_string(testes))
