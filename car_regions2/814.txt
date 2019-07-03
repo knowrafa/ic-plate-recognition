@@ -1,1 +1,0 @@
-position_plate: 91 143 54 19
