@@ -136,54 +136,62 @@ for x in range(1,3):
 
         #print(plate_positions)
         # add this
-        for (x,y,w,h) in plates:
-            cv2.rectangle(img,(x,y),(x+w,y+h),(255,255,0),2)
-            nx, ny, nw, nh = x,y,w,h
+        t_positive_vec = []
+        for dist in range(0,200):
+            true_positive = 0 #zerando variável
 
-            g_truth_triangle_center_x = (x+w + x)/2
-            g_truth_triangle_center_y = (y+h + y)/2
+            for (x,y,w,h) in plates:
+                cv2.rectangle(img,(x,y),(x+w,y+h),(255,255,0),2)
+                nx, ny, nw, nh = x,y,w,h
 
-            false_positive_triangle_center_x = (plate_positions[2] + plate_positions[0])/2
-            false_positive_triangle_center_y = (plate_positions[3] + plate_positions[1])/2
+                g_truth_triangle_center_x = (x+w + x)/2
+                g_truth_triangle_center_y = (y+h + y)/2
 
-            euclidean_dist = math.sqrt(math.pow(false_positive_triangle_center_x-g_truth_triangle_center_x, 2) + math.pow(false_positive_triangle_center_y-g_truth_triangle_center_y, 2))
-            print("Euclidean dist: " + str(euclidean_dist))
-            #Tamanho de janela para o ring growing
-            tjanela = 20
-            
-            if y+h < (height/2):
-                continue
+                false_positive_triangle_center_x = (plate_positions[2] + plate_positions[0])/2
+                false_positive_triangle_center_y = (plate_positions[3] + plate_positions[1])/2
+
+                euclidean_dist = math.sqrt(math.pow(false_positive_triangle_center_x-g_truth_triangle_center_x, 2) + math.pow(false_positive_triangle_center_y-g_truth_triangle_center_y, 2))
+                #print("Euclidean dist: " + str(euclidean_dist))
+                #Tamanho de janela para o ring growing
+                tjanela = 20
                 
-            #Verifica se o ground truth está inscrito em uma das regiões de interesse
-            #Também verifica se a região de interesse está inscrita no ground truth
-            #Verifica se a distância entre os centros dos retângulos é menor que 10
-            if (plate_positions[0] > x and plate_positions[2] < (x + w) and plate_positions[1] > y and plate_positions[3] < (y + h)) or \
-            (x > plate_positions[0] and (x + w) < plate_positions[2] and y > plate_positions[1] and (y + h) < plate_positions[3]) or \
-            euclidean_dist < 1:
-                print("true_positive: " + str(true_positive))
-                #teste = new_image[ny:ny+nh,nx:nx+nw]
-                #print(pytesseract.image_to_string(testes))
-                true_positive = true_positive + 1
-                cv2.rectangle(img,(plate_positions[0],plate_positions[1]),(plate_positions[2],plate_positions[3]),(0,255,0),2)
-                cv2.imwrite("./true_positive_images/plate-" + str(cont) + ".jpg", img)
-                break
+                if y+h < (height/2):
+                    continue
+                    
+                #Verifica se o ground truth está inscrito em uma das regiões de interesse
+                #Também verifica se a região de interesse está inscrita no ground truth
+                #Verifica se a distância entre os centros dos retângulos é menor que 10
+                '''
+                if (plate_positions[0] > x and plate_positions[2] < (x + w) and plate_positions[1] > y and plate_positions[3] < (y + h)) or \
+                (x > plate_positions[0] and (x + w) < plate_positions[2] and y > plate_positions[1] and (y + h) < plate_positions[3]) or \
+                '''
+                if euclidean_dist < dist:
+                    #print("true_positive: " + str(true_positive))
+                    #teste = new_image[ny:ny+nh,nx:nx+nw]
+                    #print(pytesseract.image_to_string(testes))
+                    true_positive = true_positive + 1
+                    t_positive_vec.append(name, dist, )
+                    cv2.rectangle(img,(plate_positions[0],plate_positions[1]),(plate_positions[2],plate_positions[3]),(0,255,0),2)
+                    cv2.imwrite("./true_positive_images/plate-" + str(cont) + ".jpg", img)
+                    break
+                else:
+                    t_positive_vec.append(name, dist, )
+                '''
+                elif (plate_positions[0] > (x-tjanela if x-tjanela > 0 else 0) and plate_positions[2] < (x+w+tjanela if x+w+tjanela < width else 0) and plate_positions[1] > (y-tjanela if y-tjanela > 0 else 0)\
+                and plate_positions[3] < (y+h+tjanela if y+h+tjanela < height else 0)):
+                    true_positive = true_positive + 1
+                    cv2.rectangle(img,(plate_positions[0],plate_positions[1]),(plate_positions[2],plate_positions[3]),(0,255,0),2)
+                    cv2.imwrite("./true_positive_images/plate-" + str(cont) + ".jpg", img)
+                    break
+                '''
+
+            #for (x,y,w,h) in faces:
+            #    cv2.rectangle(img,(x,y),(x+w,y+h),(255,0,0),2)
+
+            #cv2.rectangle(img,(plate_positions[0],plate_positions[1]),(plate_positions[2],plate_positions[3]),(0,255,0),2)
+        
+            t_positive_vec.append(name, dist, )
             
-            elif (plate_positions[0] > (x-tjanela if x-tjanela > 0 else 0) and plate_positions[2] < (x+w+tjanela if x+w+tjanela < width else 0) and plate_positions[1] > (y-tjanela if y-tjanela > 0 else 0)\
-            and plate_positions[3] < (y+h+tjanela if y+h+tjanela < height else 0)):
-                true_positive = true_positive + 1
-                cv2.rectangle(img,(plate_positions[0],plate_positions[1]),(plate_positions[2],plate_positions[3]),(0,255,0),2)
-                cv2.imwrite("./true_positive_images/plate-" + str(cont) + ".jpg", img)
-                break
-            
-            print((x-10 if x-10 > 0 else 0))
-            print( (x+w+10 if x+w+10 < width else 0))
-
-
-        #for (x,y,w,h) in faces:
-        #    cv2.rectangle(img,(x,y),(x+w,y+h),(255,0,0),2)
-
-        #cv2.rectangle(img,(plate_positions[0],plate_positions[1]),(plate_positions[2],plate_positions[3]),(0,255,0),2)
-
         if len(plates)==0:
             continue
 
@@ -223,6 +231,7 @@ file_names = file.read()
 false_negative = (cont-true_positive) + false_negative
 true_negative = 0
 false_positive = 0
+
 for name in file_names.split("\n"):
     
     time.sleep(1/30.0)
@@ -260,7 +269,7 @@ for name in file_names.split("\n"):
     else:
         #Verifica se a região está acima da metade da imagem, se todas estiverem, a placa não pode estar e logo é um verdadeiro negativo
         for (x,y,w,h) in plates:
-            print( str(y + h) + " --- " + str(0.8*height/2))
+            #print( str(y + h) + " --- " + str(0.8*height/2))
             if y+h < (height/2):
                 continue
             else:
@@ -277,6 +286,7 @@ for name in file_names.split("\n"):
     k = cv2.waitKey(30) & 0xff
     if k == 27:
         break
+
 print("True Positive: " + str(true_positive))
 print("False negative: " + str(false_negative))
 print("Imagens sem placa em que placa não foi identificada (True Negative): " + str(true_negative))
