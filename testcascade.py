@@ -4,6 +4,7 @@ import time
 import math
 import sys 
 from tabulate import tabulate
+import matplotlib.pyplot as plt
 import pytesseract
 
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
@@ -170,12 +171,12 @@ for x in range(1,3):
                     #teste = new_image[ny:ny+nh,nx:nx+nw]
                     #print(pytesseract.image_to_string(testes))
                     true_positive = true_positive + 1
-                    t_positive_vec.append(name, dist, )
+                    #t_positive_vec.append(name, dist, )
                     cv2.rectangle(img,(plate_positions[0],plate_positions[1]),(plate_positions[2],plate_positions[3]),(0,255,0),2)
                     cv2.imwrite("./true_positive_images/plate-" + str(cont) + ".jpg", img)
                     break
-                else:
-                    t_positive_vec.append(name, dist, )
+                #else:
+                    #t_positive_vec.append(name, dist, )
                 '''
                 elif (plate_positions[0] > (x-tjanela if x-tjanela > 0 else 0) and plate_positions[2] < (x+w+tjanela if x+w+tjanela < width else 0) and plate_positions[1] > (y-tjanela if y-tjanela > 0 else 0)\
                 and plate_positions[3] < (y+h+tjanela if y+h+tjanela < height else 0)):
@@ -258,6 +259,7 @@ for name in file_names.split("\n"):
         continue
 
     #gray = cv2.equalizeHist(gray)
+    
     new_image = img.copy()
     # add this
     # image, reject levels level weights.
