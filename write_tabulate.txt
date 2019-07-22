@@ -1,0 +1,4 @@
+                           [Valor Predito] Placas    [Valor Predito] Não Placas
+-----------------------  ------------------------  ----------------------------
+[Valor Real] Placas                          2000                           300
+[Valor Real] Não Placas                       340                           300

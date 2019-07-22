@@ -34,6 +34,13 @@ false_negative = 0
 true_negative = 0
 false_positive = 0
 
+total_true_positive = 0
+total_false_negative = 0
+total_true_negative = 0
+total_false_positive = 0
+
+confusion_matrix_all = []
+
 for name in file_names.split("\n"):
     
     time.sleep(1/30.0)
@@ -103,8 +110,10 @@ t_positive_vec_accuracy = []
 t_positive_vec_recall = []
 t_positive_vec_precision = []
 t_positive_vec_fscore = []
+distance = 0
 
 for dist in range(0,200):
+    distance = dist
     cont = 1
     true_positive = 0
     false_negative = 0
@@ -280,6 +289,8 @@ for dist in range(0,200):
     results.append(("[Valor Real] Não Placas",   false_positive, true_negative))
     print(tabulate(results, headers=[" ", "[Valor Predito] Placas", "[Valor Predito] Não Placas"]))
 
+    confusion_matrix_all.append(true_positive,false_negative,false_positive, true_negative)
+
     accuracy = (true_positive + true_negative)/(true_positive+true_negative+false_negative+false_positive)
     recall = (true_positive/(true_positive+false_negative))
     
@@ -303,6 +314,19 @@ for dist in range(0,200):
     t_positive_vec_fscore.append(f_score)
     t_positive_vec_recall.append(recall)
     print(tabulate(metrics))
+    
+    #Guardando resultado preliminar no arquivo
+    archive_name = "results-in-dist-" + str(dist) + ".txt"
+    
+    text_file = open("Resultados/" + archive_name, "w+")
+    text_file.write(tabulate(results, headers=[" ", "[Valor Predito] Placas", "[Valor Predito] Não Placas"]))
+    text_file.write(tabulate(metrics))
+    text_file.close()
+
+    total_false_positive = total_false_positive + false_positive
+    total_true_positive = total_true_positive + true_positive
+    total_false_negative = total_false_negative + false_negative
+    total_true_negative = total_true_negative + true_negative
     
     print("end of distance " + str(dist))
     plt.xlim(0,200)
@@ -345,5 +369,44 @@ for dist in range(0,200):
     plt.savefig('fscore1.pdf')
     #plt.show()
     scat.remove()
+
+average_confusion_matrix = []
+average_confusion_matrix.append(total_true_positive/(distance+1))
+average_confusion_matrix.append(total_false_negative/(distance+1))
+average_confusion_matrix.append(total_false_positive/(distance+1))
+average_confusion_matrix.append(total_true_negative/(distance+1))
+
+variance_tp = 0
+variance_fn = 0
+variance_fp = 0
+variance_tn = 0
+
+sum_for_variance_tp = 0
+sum_for_variance_fn = 0
+sum_for_variance_fp = 0
+sum_for_variance_tn = 0
+
+for i in range(0, 200):
+    sum_for_variance_tp = sum_for_variance_tp + math.pow(confusion_matrix_all[0]-average_confusion_matrix[i][0], 2)
+    sum_for_variance_fn = sum_for_variance_fn + math.pow(confusion_matrix_all[1]-average_confusion_matrix[i][1], 2)
+    sum_for_variance_fp = sum_for_variance_fp + math.pow(confusion_matrix_all[2]-average_confusion_matrix[i][2], 2)
+    sum_for_variance_tn = sum_for_variance_tn + math.pow(confusion_matrix_all[3]-average_confusion_matrix[i][3], 2)
+
+variance_tp = sum_for_variance_tp/200
+variance_fn = sum_for_variance_fn/200
+variance_fp = sum_for_variance_fp/200
+variance_tn = sum_for_variance_tn/200
+
+standart_deviation_tp = math.sqrt(variance_tp)
+standart_deviation_fn = math.sqrt(variance_fn)
+standart_deviation_fp = math.sqrt(variance_fp)
+standart_deviation_tn = math.sqrt(variance_tn)
+
+final_results = []
+final_results.append(("Variance", variance_tp, variance_fn, variance_fp, variance_tn))
+final_results.append(("Standart Deviation", standart_deviation_tp, standart_deviation_fn ,standart_deviation_fp, standart_deviation_tn))
+print(tabulate(results, headers=[" ", "True Positive", "False Negative", "False Positive", "True Negative"]))
+
+
 #cap.release()
 cv2.destroyAllWindows()
