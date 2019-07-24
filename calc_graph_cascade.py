@@ -289,7 +289,7 @@ for dist in range(0,200):
     results.append(("[Valor Real] Não Placas",   false_positive, true_negative))
     print(tabulate(results, headers=[" ", "[Valor Predito] Placas", "[Valor Predito] Não Placas"]))
 
-    confusion_matrix_all.append(true_positive,false_negative,false_positive, true_negative)
+    confusion_matrix_all.append((true_positive,false_negative,false_positive, true_negative))
 
     accuracy = (true_positive + true_negative)/(true_positive+true_negative+false_negative+false_positive)
     recall = (true_positive/(true_positive+false_negative))
@@ -371,10 +371,10 @@ for dist in range(0,200):
     scat.remove()
 
 average_confusion_matrix = []
-average_confusion_matrix.append(total_true_positive/(distance+1))
-average_confusion_matrix.append(total_false_negative/(distance+1))
-average_confusion_matrix.append(total_false_positive/(distance+1))
-average_confusion_matrix.append(total_true_negative/(distance+1))
+average_confusion_matrix.append(total_true_positive/(200))
+average_confusion_matrix.append(total_false_negative/(200))
+average_confusion_matrix.append(total_false_positive/(200))
+average_confusion_matrix.append(total_true_negative/(200))
 
 variance_tp = 0
 variance_fn = 0
@@ -387,10 +387,10 @@ sum_for_variance_fp = 0
 sum_for_variance_tn = 0
 
 for i in range(0, 200):
-    sum_for_variance_tp = sum_for_variance_tp + math.pow(confusion_matrix_all[0]-average_confusion_matrix[i][0], 2)
-    sum_for_variance_fn = sum_for_variance_fn + math.pow(confusion_matrix_all[1]-average_confusion_matrix[i][1], 2)
-    sum_for_variance_fp = sum_for_variance_fp + math.pow(confusion_matrix_all[2]-average_confusion_matrix[i][2], 2)
-    sum_for_variance_tn = sum_for_variance_tn + math.pow(confusion_matrix_all[3]-average_confusion_matrix[i][3], 2)
+    sum_for_variance_tp = sum_for_variance_tp + math.pow(confusion_matrix_all[i][0]-average_confusion_matrix[0], 2)
+    sum_for_variance_fn = sum_for_variance_fn + math.pow(confusion_matrix_all[i][1]-average_confusion_matrix[1], 2)
+    sum_for_variance_fp = sum_for_variance_fp + math.pow(confusion_matrix_all[i][2]-average_confusion_matrix[2], 2)
+    sum_for_variance_tn = sum_for_variance_tn + math.pow(confusion_matrix_all[i][3]-average_confusion_matrix[3], 2)
 
 variance_tp = sum_for_variance_tp/200
 variance_fn = sum_for_variance_fn/200
@@ -405,8 +405,15 @@ standart_deviation_tn = math.sqrt(variance_tn)
 final_results = []
 final_results.append(("Variance", variance_tp, variance_fn, variance_fp, variance_tn))
 final_results.append(("Standart Deviation", standart_deviation_tp, standart_deviation_fn ,standart_deviation_fp, standart_deviation_tn))
-print(tabulate(results, headers=[" ", "True Positive", "False Negative", "False Positive", "True Negative"]))
+final_results.append(("Average", average_confusion_matrix[0], average_confusion_matrix[1], average_confusion_matrix[2], average_confusion_matrix[3]))
 
+print(tabulate(final_results, headers=[" ", "True Positive", "False Negative", "False Positive", "True Negative"]))
+
+archive_name = "AVERAGE-VARIANCE-S_DEVIATION.txt"
+
+text_file = open("Resultados/" + archive_name, "w+")
+text_file.write(tabulate(final_results, headers=[" ", "True Positive", "False Negative", "False Positive", "True Negative"]))
+text_file.close()
 
 #cap.release()
-cv2.destroyAllWindows()
+#cv2.destroyAllWindows()

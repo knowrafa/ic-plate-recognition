@@ -1,0 +1,5 @@
+                      True Positive    False Negative    False Positive    True Negative
+------------------  ---------------  ----------------  ----------------  ---------------
+Variance                  77069.4           77069.4                   0                0
+Standart Deviation          277.614           277.614                 0                0
+Average                    1528.23            753.765               201              399

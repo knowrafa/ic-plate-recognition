@@ -1,0 +1,9 @@
+                           [Valor Predito] Placas    [Valor Predito] Não Placas
+-----------------------  ------------------------  ----------------------------
+[Valor Real] Placas                          1404                           878
+[Valor Real] Não Placas                       201                           399---------  ----
+Accuracy   0.63
+Recall     0.62
+Precision  0.87
+f-score    0.72
+---------  ----
